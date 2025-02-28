@@ -1,0 +1,34 @@
+{
+    "music_playlists":{
+        "PLAY_LIST_ID":{
+            "type": "TEXT"
+            },
+        "TRACK_COUNT":{
+            "type": "TEXT"
+            },
+        "PLAY_LIST_NAME":
+        {
+        "type": "TEXT"
+        },
+        "version":
+        {
+        "type": "TEXT"
+        },
+        "entity_type": {
+                "type": "TEXT"
+        },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+        "PLAYLIST_ALBUM_IMAGE_URI": {
+                "type": "TEXT"
+            },
+        "CML_HOUSEHOLD_ID": {
+                "type": "TEXT"
+            },
+            "syncComplete": {
+            "type": "INTEGER"
+        }
+    }
+}
+    
