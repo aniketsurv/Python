@@ -1,0 +1,88 @@
+Simple Interest Calculation
+
+Area of a Circle
+
+Temperature Conversion
+
+Sum of First N Natural Numbers
+
+
+Check Even or Odd
+
+# Area and Perimeter of a Rectangle
+
+# Grade Calculation
+
+# Calculate Compound Interest
+
+# String Length Comparison
+
+# Check Prime Number
+
+# Reverse a String
+
+# String to Uppercase
+
+# Count Vowels in a String
+
+# Fibonacci Sequence
+
+# Compound Interest Calculation
+
+# Sum of Digits of a Number
+
+# Find GCD (Greatest Common Divisor)
+
+# Check for Palindrome
+
+# Electricity Bill Calculation
+
+# Loan EMI Calculation
+
+# Days in a Month
+
+# Simple Calculator
+#Generate a Random Number
+Merge Two Dictionaries
+Check if a Number is Even or Odd
+
+
+
+Find the Data Type of a Variable
+
+Sum of Digits of a Number
+
+Convert List to String
+
+Reverse a String
+
+Find the Frequency of Elements in a List
+
+Flatten a Nested List
+
+Check if a String is a Palindrome
+
+Count Occurrences of a Substring in a String
+
+Remove Duplicates from a List
+
+Merge Two Lists into a Dictionary
+
+Check if a Number is Prime
+
+Find the Common Elements Between Two Lists
+
+Sum of Squares of First N Numbers
+
+Merge Two Dictionaries
+
+Check if All Elements in a List are Unique
+
+Sum of Even and Odd Numbers in a List
+
+Create a Dictionary from Two Lists
+
+Check if a List is Sorted
+
+
+
