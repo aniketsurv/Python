@@ -7,7 +7,6 @@ Temperature Conversion
 Sum of First N Natural Numbers
 
 
-Check Even or Odd
 
 # Area and Perimeter of a Rectangle
 
@@ -15,13 +14,9 @@ Check Even or Odd
 
 # Calculate Compound Interest
 
-# String Length Comparison
 
 # Check Prime Number
 
-# Reverse a String
-
-# String to Uppercase
 
 # Count Vowels in a String
 
@@ -39,7 +34,7 @@ Check Even or Odd
 
 # Loan EMI Calculation
 
-# Days in a Month
+
 
 # Simple Calculator
 #Generate a Random Number
@@ -48,13 +43,12 @@ Check if a Number is Even or Odd
 
 
 
-Find the Data Type of a Variable
 
-Sum of Digits of a Number
+
+
 
 Convert List to String
 
-Reverse a String
 
 Find the Frequency of Elements in a List
 
