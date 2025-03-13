@@ -24,8 +24,6 @@ Sum of First N Natural Numbers
 
 # Compound Interest Calculation
 
-# Sum of Digits of a Number
-
 # Find GCD (Greatest Common Divisor)
 
 # Check for Palindrome
