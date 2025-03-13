@@ -31,3 +31,17 @@ cat.sound()
 
 #2) method overloading
 
+
+
+class Calculator:
+    def add(self, a, b, c=0):  # Default argument for c
+        return a + b + c
+
+calc = Calculator()
+
+# Calling with two arguments
+print(calc.add(2, 3))  # Outputs: 5
+
+# Calling with three arguments
+print(calc.add(2, 3, 4))  # Outputs: 9
+
