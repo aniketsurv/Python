@@ -8,7 +8,7 @@ class area_of_circle:
     print("area of circle",arc)
 
     # 2nd way
-    radiusss = int(input("Enter a number : "))
+    rad = int(input("Enter the radius of the circle : "))
 
-    arccc = math.pi * radiusss ** 2
-    print("area of circle",arc)
+    area = math.pi * rad ** 2
+    print(f"The area of the circle with radius {rad} is:",area)

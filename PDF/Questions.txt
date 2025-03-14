@@ -1,12 +1,11 @@
-Simple Interest Calculation
 
-Area of a Circle
+
 
 Temperature Conversion
 
 Sum of First N Natural Numbers
 
-
+Leap year
 
 # Area and Perimeter of a Rectangle
 
@@ -27,31 +26,20 @@ Sum of First N Natural Numbers
 # Find GCD (Greatest Common Divisor)
 
 # Check for Palindrome
-
+Find Largest Element in a List
 # Electricity Bill Calculation
-
+Factorial of a Number
 # Loan EMI Calculation
-
-
-
-# Simple Calculator
-#Generate a Random Number
+Natural Numbers
 Merge Two Dictionaries
-Check if a Number is Even or Odd
-
-
-
-
-
-
-
+Count the Occurrence of Each Character
 Convert List to String
-
-
+Find the GCD of Two Numbers
+Generate a Random Number
+Find the Length of a String Without Using len()
 Find the Frequency of Elements in a List
-
+Merge Two Lists
 Flatten a Nested List
-
 Check if a String is a Palindrome
 
 Count Occurrences of a Substring in a String
