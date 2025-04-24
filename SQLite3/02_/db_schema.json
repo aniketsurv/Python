@@ -1,0 +1,5145 @@
+{
+    "music_playlists":{
+        "PLAY_LIST_ID":{
+            "type": "TEXT"
+            },
+        "TRACK_COUNT":{
+            "type": "TEXT"
+            },
+        "PLAY_LIST_NAME":
+        {
+        "type": "TEXT"
+        },
+        "version":
+        {
+        "type": "TEXT"
+        },
+        "entity_type": {
+                "type": "TEXT"
+        },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+        "PLAYLIST_ALBUM_IMAGE_URI": {
+                "type": "TEXT"
+            },
+        "CML_HOUSEHOLD_ID": {
+                "type": "TEXT"
+            },
+            "syncComplete": {
+            "type": "INTEGER"
+        },
+        "UNIQUE":
+            {
+                "CML_HOUSEHOLD_ID":"TEXT",
+                "PLAY_LIST_ID":"TEXT",
+                "TRACK_COUNT":"TEXT",
+                "PLAY_LIST_NAME":"TEXT"
+            }
+    },
+    "music_playlist_tracks":{
+        "TRACK_ID":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_PARENT_ID":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_TITLE":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_ARTIST":
+        {
+         "type": "TEXT"
+        },
+        "TRACK_ALBUM":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_IMAGEURL":
+        {
+        
+        "type": "TEXT"
+        },
+        "TRACK_URI":
+        {
+        "type": "TEXT"
+        },
+        "PLAY_LIST_ID":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_DURATION":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_FILE_NAME":
+        {
+        "type": "TEXT"
+        },
+        "entity_type": {
+                "type": "TEXT"
+        },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+        "CML_HOUSEHOLD_ID": {
+                "type": "TEXT"
+            }
+    },
+    "music_playlist_tracks_v2":{
+        "TRACK_ID":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_PARENT_ID":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_TITLE":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_ARTIST":
+        {
+         "type": "TEXT"
+        },
+        "TRACK_ALBUM":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_IMAGEURL":
+        {
+        
+        "type": "TEXT"
+        },
+        "TRACK_URI":
+        {
+        "type": "TEXT"
+        },
+        "PLAY_LIST_ID":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_DURATION":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_FILE_NAME":
+        {
+        "type": "TEXT"
+        },
+        "entity_type": {
+                "type": "TEXT"
+        },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+        "CML_HOUSEHOLD_ID": {
+                "type": "TEXT"
+            }
+    },
+    "system_credentials":
+            {
+        "ID":{
+        "type":"TEXT",
+        "pk":"true"
+        },
+        "USERNAME":{
+        "type": "TEXT"	
+        },
+        "PASSWORD":{
+        "type": "TEXT"
+        },
+        "PROCESS":{
+        "type": "TEXT"
+        },
+    
+        "entity_type": {
+                "type": "TEXT"
+        }
+    },
+    "music_fields":	
+        {
+        "CML_SERIAL_ID":
+        {
+        "type": "TEXT"
+        },
+        "CML_SUB_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "PLAY_LIST_ID":
+        {
+        "type": "TEXT"
+        },
+        "PLAY_LIST_NAME":
+        {
+        "type": "TEXT"
+        },
+        "TRACK_COUNT":
+        {
+        "type": "TEXT"
+        },
+        "CURRENT_TRACK_TITLE":
+        {
+        "type": "TEXT"
+        },
+        "CURRENT_TRACK_ALBUM":
+        {
+        "type": "TEXT"
+        },
+        "CURRENT_TRACK_ARTIST":
+        {
+        "type": "TEXT"
+        },
+        "CURRENT_TRACK_IMAGEURL":
+        {
+        "type": "TEXT"
+        },
+        "NEXT_TRACK_TITLE":
+        {
+        "type": "TEXT"
+        },
+        "NEXT_TRACK_ALBUM":
+        {
+        "type": "TEXT"
+        },
+        "NEXT_TRACK_ARTIST":
+        {
+        "type": "TEXT"
+        },
+        "NEXT_TRACK_IMAGEURL":
+        {
+        "type": "TEXT"
+        },
+        "CURRENT_TRACK_URI":
+        {
+        "type": "TEXT"
+        },
+        "entity_type": {
+                "type": "TEXT"
+        }
+    },
+    "numids":{
+              "TARGET":{
+                 "type": "TEXT",
+                "pk": "true"
+            },
+            "num_id":{
+            "type": "INTEGER"
+            },
+        "CML_SUB_TYPE":{
+            "type": "TEXT"
+        }
+    },
+    "cron_activation_status":{
+              "SCHEDULE_ID": {
+            "type": "TEXT"
+           },
+              "TARGET":{
+                 "type": "TEXT"
+            },
+            "wake_up_toggle":{
+            "type": "INTEGER"
+            },
+        "wake_up_hour":{
+            "type": "INTEGER"
+            },
+        "wake_up_min":{
+            "type": "INTEGER"
+            },
+        "sleep_toggle":{
+            "type": "INTEGER"
+            },
+        "sleep_hour":{
+            "type": "INTEGER"
+            },
+        "sleep_min":{
+            "type": "INTEGER"
+            },
+        "entity_type":{
+            "type": "TEXT"
+            },
+        "schedule_relation":{
+        "type": "TEXT"
+        },
+        "origin":{
+        "type":"TEXT"
+        },
+         "weekdays":{
+        "type":"TEXT"
+        }
+    },
+    "hubInfo": {
+            "CML_HUBSERIAL_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_HUBAUTH_ID": {
+                "type": "TEXT"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "SYNC_PENDING_STATUS": {
+                "type": "INTEGER"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_FIRMWARE_MODULE": {
+                "type": "TEXT"
+            },
+            "CML_FIRMWARE_DEPENDANCY": {
+                "type": "TEXT"
+            },
+            "CML_FIRMWARE_SOUND": {
+                "type": "TEXT"
+            },
+            "CML_FIRMWARE_HUB": {
+                "type": "TEXT"
+            },
+            "CML_FIRMWARE_PORTAL": {
+                "type": "TEXT"
+            },
+            "CML_FIRMWARE_SOUL_SYSTEM": {
+                "type": "TEXT"
+            },
+            "CML_MANUFACTURER": {
+                "type": "TEXT"
+            },
+            "CML_FAMILY_NAME": {
+                "type": "TEXT"
+            },
+            "CML_HUB_SUBSCRIPTION": {
+                "type": "TEXT"
+            },        
+            "CML_AQI_CALCULATION_FLAG": {
+                "type": "TEXT"
+            },
+            "CML_HUB_GENERATION": {
+                "type": "TEXT"
+            },
+            "CML_ACT_ROLE": {
+                "type": "TEXT"
+            },
+            "LOCATION_ID": {
+                "type": "TEXT",
+                "references": {
+                    "tableName": "location",
+                    "cols": [
+                        "LOCATION_ID"
+                    ],
+                    "cascade": true
+                }
+            },
+            "PROPERTY_ID": {
+                "type": "TEXT",
+        "references": {
+                    "tableName": "property",
+                    "cols": [
+                        "PROPERTY_ID"
+                    ],
+                    "cascade": true
+                }
+            },
+            "CML_HUB_MODE":{
+                "type": "TEXT"
+            },
+            "CML_CONFIG_COUNT":{
+                "type": "INTEGER"
+            },
+            "CML_CONFIG_START_TIME":{
+                "type": "TEXT"
+            },
+            "CML_CONFIG_END_TIME":{
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "CML_PREV_HUB_MODE": {
+                "type": "TEXT"
+            },
+        "ALLOW_PACKAGE_VALIDATION": {
+                "type": "INTEGER"
+            },
+        "CML_HUB_DEPLOYMENT_TYPE": {
+            "type": "TEXT"
+        },
+        "CML_MODEL_NO": {
+            "type": "TEXT"
+        },
+        "CLZ_LAST_SYNC_TIME": {
+            "type": "INTEGER"
+        },
+        "Device_Name": {
+            "type": "TEXT"
+        },
+        "CML_IS_ENTERPRISE":{
+                "type":"INTEGER"
+        },
+        "CML_LAST_UPDATE":{
+            "type":"TEXT"
+        },
+        "CML_SERVER":{
+            "type":"TEXT"
+        },
+        "CML_LAST_RESTORE" : {
+            "type":"TEXT"
+        },
+        "CML_LAST_LOCALBACKUP":{
+            "type":"TEXT"
+        },
+        "CML_FIRMWARE_ESP_APF":{
+            "type":"TEXT"
+            },
+        "CML_FIRMWARE_ESP_SENSOR":{
+            "type":"TEXT"
+            },
+        "CML_FIRMWARE_ESP_PLUG":{
+            "type":"TEXT"
+            },
+        "legacyTokenFlag":{
+            "type":"TEXT"
+            }
+        },
+        "location": {
+            "LOCATION_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "CML_ZIPCODE": {
+                "type": "TEXT"
+            },
+            "CML_CONTINENT": {
+                "type": "TEXT"
+            },
+            "CML_LOCATION": {
+                "type": "TEXT"
+            },
+            "ADDRESS_LINE2": {
+                "type": "TEXT"
+            },
+            "CML_CITY": {
+                "type": "TEXT"
+            },
+            "CML_STATE": {
+                "type": "TEXT"
+            },
+            "CML_TIMEZONE": {
+                "type": "TEXT"
+            },
+            "CML_COUNTRY": {
+                "type": "TEXT"
+            },
+            "CML_COUNTRY_CODE": {
+                "type": "TEXT"
+            },
+            "CML_LATITUDE": {
+                "type": "TEXT"
+            },
+            "CML_LONGITUDE": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "ADDRESS_LINE1": {
+                "type": "TEXT"
+            }
+        },
+        "property": {
+            "PROPERTY_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            "SYNC_PENDING_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CREATED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY": {
+                "type": "TEXT"
+            },
+            "CREATED_ON": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_BY": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_RETROFIT": {
+                "type": "TEXT"
+            },
+            "LOCATION_ID": {
+                "type": "TEXT",
+        "references": {
+                    "tableName": "location",
+                    "cols": [
+                        "LOCATION_ID"
+                    ],
+                    "cascade": true
+                }
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "PROPERTY_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_IMAGE_PATH": {
+                "type": "TEXT"
+            },
+        "CML_LOCAL_IMG_PATH": {
+                "type": "TEXT"
+            },
+         "trackUri":{
+             "type":"TEXT"
+         },
+         "linkPrpKey":{
+             "type":"TEXT"
+         },
+            "PROJECT_ID": {
+                "type": "TEXT"
+            },
+            "orgTitle": {
+                "type": "TEXT"
+            },
+            "isRestored": {
+                "type": "TEXT"
+            },
+            "CML_CATEGORY":{
+                "type": "TEXT"
+            }
+         
+        },
+        
+     "structure": {
+            "STRUCTURE_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            "PROPERTY_ID": {
+                "type": "TEXT",
+            "references":{
+                 "tableName":"property",
+            "cols": [ "PROPERTY_ID"],
+                
+            "cascade": true
+            }
+    
+            },
+            "FLOOR_ID": {
+                "type": "TEXT"
+            },
+            "ROOM_ID": {
+                "type": "TEXT"
+            },
+            "GROUP_ID": {
+                "type": "TEXT"
+            },
+            
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "SYNC_PENDING_STATUS": {
+                "type": "INTEGER"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CREATED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY": {
+                "type": "TEXT"
+            },
+            "CREATED_ON": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_BY": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+    
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "PROJECT_ID": {
+                "type": "TEXT"
+            },
+            "CREDENTIAL_ID":{
+                "type":"TEXT"
+            },
+            "INTERFACE_ID":{
+                "type":"TEXT"
+            },
+            "INDEX_NO":{
+                "type":"TEXT"
+            },
+            "CUSTOM_USER_NAME":{
+            "type":"TEXT"
+        },
+           "UNIQUE":
+                {
+                    "CML_TITLE":"TEXT",
+                     "CML_TYPE":"TEXT" ,
+                     "CUSTOM_USER_NAME": "TEXT"              
+                }
+        },
+        "groups": {
+            "GROUP_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "STRUCTURE_ID": {
+                "type": "TEXT"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "SYNC_PENDING_STATUS": {
+                "type": "INTEGER"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_GROUP_TYPE":{
+                "type": "TEXT"
+            },
+            "CML_DEVICES": {
+                "type": "TEXT"
+            },
+            "CML_ROOM_KEY_VAL": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "CREATED_BY": {
+                "type": "TEXT"
+            },
+            "CREATED_ON": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_BY": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "CREDENTIAL_ID": {
+              "type": "TEXT"
+            },
+            "INTERFACE_ID": {
+              "type": "TEXT"
+            },
+            "CML_SERIAL_ID": {
+                "type": "TEXT"
+            }
+        },
+       "devices": {
+            "DEVICE_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "STRUCTURE_ID": {
+                "type": "TEXT",
+        "references": {
+                    "tableName": "structure",
+                    "cols": [
+                        "STRUCTURE_ID"
+                    ],
+                    "cascade": true
+                }
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "SYNC_PENDING_STATUS": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY": {
+                "type": "TEXT"
+            },
+            "CREATED_ON": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_BY": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_MANUFACTURER_NAME": {
+                "type": "TEXT"
+            },
+            "CML_MANUFACTURER_ID": {
+                "type": "TEXT"
+            },
+            "CML_SERIAL_ID": {
+                "type": "TEXT"
+            },
+            "CML_NAME": {
+                "type": "TEXT"
+            },
+            "CML_TESTABLE": {
+                "type": "TEXT"
+            },
+            "CML_MAC_ID": {
+                "type": "TEXT"
+            },
+            "CML_INSTALLATION_DATE": {
+                "type": "TEXT"
+            },
+            "CML_CONTROLLER_ID": {
+                "type": "TEXT"
+            },
+            "CML_CONTROL_MODE": {
+                "type": "INTEGER"
+            },
+            "CML_EXPIRY_DATE": {
+                "type": "TEXT"
+            },
+            "IO_MODE": {
+                "type": "INTEGER"
+            },
+            "INPUT_PROTOCOL": {
+                "type": "TEXT"
+            },
+            "OUTPUT_PROTOCOL": {
+                "type": "TEXT"
+            },
+            "CML_SUPPORTING_ZONE": {
+                "type": "TEXT"
+            },
+            "CML_SUPPORTED_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_DEVICE_FIRMWARE": {
+                "type": "TEXT"
+            },
+            "MODEL_NUMBER": {
+                "type": "TEXT"
+            },
+            "OWNER_ID": {
+                "type": "TEXT"
+            },
+            "override": {
+                "type": "TEXT"
+            },
+            "concept": {
+                "type": "TEXT"
+            },
+             "COLOR_SUPPORTED": {
+                "type": "INTEGER"
+            },
+            "CML_DEVICE_REF": {
+                "type": "TEXT"
+            },
+            "CML_GROUP_REF": {
+                "type": "TEXT"
+            },
+            "CREDENTIAL_ID": {
+              "type": "TEXT"
+            },
+            "INTERFACE_ID": {
+              "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "CML_SWITCH_CNTR_ID":{
+            "type":"TEXT"
+        },
+        "CML_SHORT_NAME":
+        {
+        "type": "TEXT"
+        },
+        "DEVICE_TYPE_ID":
+        {
+        "type": "TEXT"
+        },
+        "PRODUCT_ID":
+        {
+        "type": "TEXT"
+        },
+        "CML_HOUSEHOLD_ID":
+        {
+        "type": "TEXT"
+        },
+        "INDEX_NO":{
+                "type":"TEXT"
+            },
+            "CUSTOM_USER_NAME":{
+                "type":"TEXT"
+            },
+        "WATT":{
+                "type": "INTEGER"
+            },
+        "CML_CATEGORY":{
+                "type":"TEXT"
+        },	
+        "ACTIONS_PROPERTIES":{
+                "type":"TEXT"
+        },
+        "UNIQUE":
+                {
+                    "CML_TITLE":"TEXT",
+                    "CUSTOM_USER_NAME" : "TEXT",
+                    "CML_SERIAL_ID":"TEXT"
+                    
+                }
+        },
+        
+    "favourite": {
+            "ID": {
+                "type": "TEXT",
+                "pk": "true"
+    
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "FAV_TYPE": {
+                "type": "INTEGER"
+            },
+             "ACTION_TYPE": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "SCHEDULE_ID": {
+                "type": "TEXT"
+            },
+            "UNIQUE":
+                {
+                    "TARGET":"TEXT",
+                    "CML_TYPE":"TEXT",
+                    "CML_SUB_TYPE":"TEXT",
+            "SCENE_ID": "INTEGER",
+            "SCHEDULE_ID": "TEXT"
+                }
+        },
+    "button_map": {
+            "ID": {
+                "type": "TEXT",
+                "pk": "true"
+    
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "SCENE_ID": {
+                "type": "TEXT"
+            },
+            "VALUE": {
+                "type": "INTEGER"
+            },
+             "ACTION_TYPE": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "UNIQUE":
+                {
+                    "TARGET":"TEXT",
+                    "CML_TYPE":"TEXT",
+                    "CML_SUB_TYPE":"TEXT"
+                }
+        },
+    
+        "credentials": {
+            "CREDENTIAL_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "UID": {
+                "type": "TEXT"
+            },
+            "credentials_type":
+            {
+            "type":"TEXT"
+            },
+            "HUB_IP":
+            {
+            "type":"TEXT"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "CLIENT_ID": {
+                "type": "TEXT"
+            },
+    
+            "ISSUED_ON": {
+                "type": "INTEGER"
+            },
+            "CLIENT":{
+            "type":"TEXT"
+            },
+            "CLIENT_SECRETE":{
+            "type":"TEXT"
+            },
+            "CML_PATH":{
+            "type":"TEXT"
+            },
+    
+            "EXPIRES_ON": {
+                "type": "INTEGER"
+            },
+            "SCOPE": {
+                "type": "TEXT"
+            },
+            "HUB_AUTH_ID": {
+                "type": "TEXT"
+            },
+            "HUB_SERIAL_ID": {
+                "type": "TEXT"
+            },
+            "USERNAME": {
+                "type": "TEXT"
+            },
+            "PASSWORD": {
+                "type": "TEXT"
+            },
+            "ACCESS_TOKEN": {
+                "type": "TEXT"
+            },
+            "REFRESH_TOKEN": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "SYNC_PENDING_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "RENEW_LIFE_TIME": {
+                "type": "TEXT"
+            },
+            "LIFE_TIME": {
+                "type": "TEXT"
+            },
+            "CML_PARENT_ID":{
+            "type": "TEXT"
+            },
+            "PROPERTY_ID": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "INTERFACE_ID": {
+                "type": "TEXT"
+            },
+            "VERIFY_CREDS": {
+                "type": "INTEGER"
+            }
+        },
+    "credentials_type":{
+            "TYPE_ID":{
+               "type": "TEXT",
+            "references": {
+                    "tableName": "credentials",
+                    "cols": [
+                        "CML_SUB_TYPE"
+                    ],
+                    "cascade": true
+                }
+                },
+                "CE_CRED_TYPE_NAME":{
+                "type":"TEXT"
+                },
+                "CE_CRED_TYPE":{
+                "type":"TEXT"
+                },
+                 
+                "entity_type": {
+                            "type": "TEXT"
+                        }
+                },
+        "userlist": {
+        "userId": {
+                "type": "TEXT"
+            },
+            "username": {
+                "type": "TEXT"
+            },
+            "rPassword": {
+                "type": "TEXT"
+            },
+    
+            "RECOVERY_MAIL": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "ACTION": {
+                "type": "TEXT"
+            },
+            "hubId": {
+                "type": "TEXT"
+            },
+            "RegisterWith": {
+                "type": "TEXT"
+            },
+            "firstName": {
+                "type": "TEXT"
+            },
+            "lastName": {
+                "type": "TEXT"
+            },
+            "JWTTOKEN": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "password": {
+                "type": "TEXT"
+            },
+            "logintype": {
+                "type": "TEXT"
+            },
+            "ROLE":{
+                "type":"INTEGER"
+            },
+            "USM_IMAGE_PATH": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "CML_HIDDEN":{
+                "type":"INTEGER"
+            },
+            "USER_ACTIVITY_STATUS":{
+            "type": "INTEGER"
+        },
+        "USER_SECRETE_KEY":{
+            "type": "TEXT"
+        },
+        "clzuserid":{
+            "type": "TEXT"
+        },
+        "clzToken":{
+            "type": "TEXT"
+        },
+        "addedOn":{
+            "type": "TEXT"
+        },
+        "addedby":{
+            "type": "TEXT"
+        },
+        "confType":{
+            "type": "TEXT"
+        },
+        "contact":{
+            "type": "INTEGER"
+        },
+        "setPwdFlag":{
+            "type": "TEXT"
+        },
+        "CML_IS_ENTERPRISE":{
+            "type":"INTEGER"
+        }
+        },
+    
+     "interfaces": {
+            "INTERFACE_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_TYPE": {
+                "type": "INTEGER"
+            },
+            "CML_SUB_TYPE": {
+                "type": "INTEGER"
+            },
+        "CML_MODE":{
+        "type":"INTEGER"
+        },
+        
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "CML_VERSION": {
+                "type": "TEXT"
+            },
+        "TYPE_OF_AUTH":{
+        "type":"INTEGER"
+        },
+        "MODE_OF_AUTH":{
+        "type":"INTEGER"
+        },
+        "URL_PROVIDER":{
+        "type":"INTEGER"
+        },
+            "IS_TESTING": {
+                "type": "INTEGER"
+            },
+            "DRIVER_NAME": {
+                "type": "TEXT"
+            },
+            "CML_MANUFACTURER": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "CML_MANUFACTURER_ID": {
+                "type": "TEXT"
+            },
+        "CONFIGURATION_STATUS": {
+                "type": "INTEGER"
+            },
+            "fromScript": {
+                "type": "TEXT"
+            },
+            "UNIQUE":
+                {
+                    "DRIVER_NAME":"TEXT"
+                }
+        },
+        
+        "aqi": {
+            "LKEY_VAL": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LOCATION_ID": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_BREEZOMETER_DESCRIPTION": {
+                "type": "TEXT"
+           },
+             "CML_COUNTRY_AQI": {
+                "type": "INTEGER"
+           },
+             "CML_COUNTRY_DESCRIPTION": {
+                "type": "TEXT"
+           },
+            "CML_DATETIME": {
+                "type": "TEXT"
+           },
+          "CML_POLLUTANTS_CO_CONCENTRATION": {
+                "type": "INTEGER"
+           },
+           "CML_POLLUTANTS_CO_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+           },
+            "CML_POLLUTANTS_CO_POLLUTANT_UNITS": {
+                "type": "TEXT"
+           },
+           "CML_POLLUTANTS_NH3_CONCENTRATION": {
+                "type": "INTEGER"
+           },
+         "CML_POLLUTANTS_NH3_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+           },
+           "CML_POLLUTANTS_NO2_CONCENTRATION": {
+                "type": "INTEGER"
+           },
+            "CML_POLLUTANTS_NO2_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+           },
+          "CML_POLLUTANTS_NO2_POLLUTANT_UNITS": {
+                "type": "TEXT"
+           },
+           "CML_POLLUTANTS_O3_CONCENTRATION": {
+                "type": "INTEGER"
+           },
+           "CML_POLLUTANTS_O3_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+           },
+            "CML_POLLUTANTS_O3_POLLUTANT_UNITS": {
+                "type": "TEXT"
+           },
+         "CML_POLLUTANTS_PM10_CONCENTRATION": {
+                "type": "INTEGER"
+           },
+           "CML_POLLUTANTS_PM10_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+           },
+            "CML_POLLUTANTS_PM10_POLLUTANT_UNITS": {
+                "type": "TEXT"
+           },
+           "CML_POLLUTANTS_PM25_CONCENTRATION": {
+                "type": "INTEGER"
+           },
+          "CML_POLLUTANTS_PM25_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+           },
+          "CML_POLLUTANTS_PM25_POLLUTANT_UNITS": {
+                "type": "TEXT"
+           },  
+          "CML_POLLUTANTS_S02_CONCENTRATION": {
+                "type": "INTEGER"
+           },
+           "CML_POLLUTANTS_S02_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+           },
+           "CML_POLLUTANTS_S02_POLLUTANT_UNITS": {
+                "type": "TEXT"
+           },
+           "CML_START_DATE": {
+                "type": "TEXT"
+           },
+           "CML_SUNRISE_TIME": {
+                "type": "TEXT"
+           },
+           "CML_SUNSET_TIME": {
+                "type": "TEXT"
+           },
+           " CML_WEATHER_TEXT": {
+                "type": "TEXT"
+           },
+            "CML_TEMPERATURE": {
+                "type": "INTEGER"
+           },
+            "CML_TEMPERATURE_UNIT": {
+                "type": "TEXT"
+           },
+           "CML_RELATIVE_HUMIDITY": {
+                "type": "INTEGER"
+           },
+           "CML_ICON_CODE": {
+                "type": "INTEGER"
+           },
+           "CML_COUNTRY_NAME": {
+                "type": "TEXT"
+           },
+           "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+           },
+           "entity_type": {
+                "type": "TEXT"
+           }
+        },
+    
+        "schedule": {
+            "SCHEDULE_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "CML_DATE": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_ROOM": {
+                "type": "TEXT"
+            },
+    
+            "CML_SOUND": {
+                "type": "TEXT"
+            },
+    
+            "CML_PLAYLIST": {
+                "type": "TEXT"
+            },
+    
+            "CML_MUSIC": {
+                "type": "TEXT"
+            },
+            "SNOOZE_ID": {
+                "type": "TEXT"
+            },
+    
+            "CML_DAYS": {
+                "type": "TEXT"
+            },
+    
+            "CML_SCHEDULE_DAY": {
+                "type": "TEXT"
+            },
+    
+            "CML_HOUR": {
+                "type": "INTEGER"
+            },
+    
+            "CML_MIN": {
+                "type": "INTEGER"
+            },
+            "CML_SEC": {
+                "type": "INTEGER"
+            },
+            "CML_STATUS": {
+                "type": "TEXT"
+            },
+    
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+    
+            "SNOOZE_SET": {
+                "type": "TEXT"
+            },
+    
+            "STOP_SET": {
+                "type": "TEXT"
+            },
+    
+            "NOTIFICATION_ID": {
+                "type": "TEXT"
+            },
+    
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+    
+            "CML_ALLOW_DEVICES": {
+                "type": "TEXT"
+            },
+    
+    
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+    
+    
+        "notification": {
+            "NOTIFICATION_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "CML_HOUR": {
+                "type": "INTEGER"
+            },
+            "NCML_HOUR": {
+                "type": "INTEGER"
+            },
+    
+            "CML_MIM": {
+                "type": "INTEGER"
+            },
+    
+            "NCML_MIM": {
+                "type": "INTEGER"
+            },
+            "SCHEDULE_ID": {
+                "type": "TEXT",
+        "references": {
+                    "tableName": "schedule",
+                    "cols": [
+                        "SCHEDULE_ID"
+                    ],
+                    "cascade": true
+                }
+            },
+    
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+    
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+    
+            "CML_ROOM": {
+                "type": "TEXT"
+            },
+    
+            "CML_DAYS": {
+                "type": "TEXT"
+            },
+            "NOTIFICATION_ID": {
+                "type": "TEXT"
+            },
+    
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+    
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+    
+            "CML_HALT": {
+                "type": "TEXT"
+            },
+    
+            "entity_type": {
+                "type": "TEXT"
+            }
+    
+        },
+        "network": {
+            "NETWORK_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SSID": {
+                "type": "TEXT"
+            },
+            "CML_IP": {
+                "type": "TEXT"
+            },
+            "CML_GATEWAY_IP": {
+                "type": "TEXT"
+            },
+            "CML_MAC_ID": {
+                "type": "TEXT"
+            },
+            "CML_ETH_MAC": {
+                "type": "TEXT"
+            },
+            "CML_WIFI_MAC": {
+                "type": "TEXT"
+            },
+            "CML_NETMASK": {
+                "type": "TEXT"
+            },
+            "CML_DNS": {
+                "type": "TEXT"
+            },
+            "CML_MODE": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "CML_STATE":{
+            "type": "TEXT"
+        },
+        "CML_SIGNAL_STRENGTH":{
+            "type": "TEXT"
+        },
+        "CML_FREQUENCY":{
+            "type": "TEXT"
+        },
+        "CML_WIFI_SSID": {
+            "type": "TEXT"
+        },
+        "CML_WIFI_SSID_PASSWORD": {
+            "type": "TEXT"
+        }
+        },
+        "scene_mapping": {
+            "SCENE_ID": {
+                "type": "INTEGER",
+                "pk": "true"
+            },
+            "SCENE_NAME": {
+                "type": "TEXT"
+            },
+            "LIGHT": {
+                "type": "INTEGER"
+            },
+            "SHADE": {
+                "type": "INTEGER"
+            },
+            "HVAC": {
+                "type": "INTEGER"
+            },
+            "MUSIC": {
+                "type": "INTEGER"
+            },
+            "LOCK": {
+                "type": "INTEGER"
+            },
+            "AIRPURIFIER": {
+                "type": "INTEGER"
+            },
+            "WATER_PURIFIER": {
+                "type": "INTEGER"
+            },
+            "SENSOR": {
+                "type": "INTEGER"
+            },
+            "MOTION_SENSOR": {
+                "type": "INTEGER"
+            },
+            "CAMERA": {
+                "type": "INTEGER"
+            },
+            "SWITCH": {
+                "type": "INTEGER"
+            },
+            "SMART_PLUG": {
+                "type": "INTEGER"
+            },
+            "OUTLET": {
+                "type": "INTEGER"
+            },
+            "WASHERS": {
+                "type": "INTEGER"
+            },
+            "TV": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "deleteHistory": {
+            "DeleteTime": {
+                "type": "INTEGER",
+                "defaultValue": {
+                    "sqliteBuiltIn": "(strftime('%s','now'))"
+                }
+            },
+            "ID": {
+                "type": "TEXT"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "object_type": {
+                "type": "TEXT"
+            },
+    
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "userConnectionMap": {
+            "ID":  {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "USER_ID":  {
+                "type": "TEXT"
+            },
+            "device_id":  {
+                "type": "TEXT"
+            },
+            "clientId": {
+                "type": "TEXT"
+            },
+            "offline_time":  {
+                "type": "INTEGER"
+            },
+            "online_time": {
+                "type": "INTEGER"
+            },
+            "deviceName": {
+                "type": "TEXT"
+            },
+            "deviceType" :  {
+                "type": "TEXT"
+            },
+            "ip":  {
+                "type": "TEXT"
+            },
+            "version": {
+                "type": "TEXT"
+            },
+            "token":  {
+                "type": "TEXT"
+            },
+            "entity_type":  {
+                "type": "TEXT"
+            },
+            "location":  {
+                "type": "TEXT"
+            }
+        },
+        "scene": {
+            "ID": {
+                "type": "INTEGER",
+                "pk": "true"
+            },
+            "NAME": {
+                "type": "TEXT"
+            },
+            "DURATION_TYPE": {
+                "type": "TEXT"
+            },
+            "DURATION_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "NO_SLOTS": {
+                "type": "INTEGER"
+            },
+            "DURATION": {
+                "type": "INTEGER"
+            },
+            "ICON_LOCATION_PATH": {
+                "type": "TEXT"
+            },
+            "ELEMENTS": {
+                "type": "INTEGER"
+            },
+            "CONCEPTS": {
+                "type": "INTEGER"
+            },
+            "scene_extention": {
+                "type": "INTEGER"
+            },
+            "next_scene": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "isDefault": {
+                "type": "INTEGER"
+            },
+        "SUPPORTED_DEVICE_TYPES": {
+                "type": "TEXT"
+            },
+        "SCENE_DESCRIPTION": {
+                "type": "TEXT"
+            },
+        "CML_IMAGE_PATH": {
+                "type": "TEXT"
+            },
+        "DEFAULT_ALLOWED" :{
+                  "type": "INTEGER" 
+        },
+        "CML_LOCAL_IMG_PATH": {
+                "type": "TEXT"
+            },
+        "CML_VERSION":{
+            "type":"TEXT"
+        },
+        "from_hour" :{
+                  "type": "INTEGER" 
+        },
+        "from_min" :{
+                  "type": "INTEGER" 
+        },
+        "to_hour" :{
+                  "type": "INTEGER" 
+        },
+        "to_min" :{
+                  "type": "INTEGER" 
+        },
+        "UNIT_OF_MEASUREMENT":{
+                "type":"INTEGER"
+        },
+        "DURATION_TIME":{
+                "type":"INTEGER"
+        }
+        },
+    
+        "sceneElements": {
+          "ID": {
+                "type": "TEXT"
+            },
+            "sceneId": {
+                "type": "TEXT"
+            },
+            "concept": {
+                "type": "TEXT"
+            },
+            "element": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "light_led": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+            "CML_TEMPERATURE": {
+                "type": "INTEGER"
+            },
+            "CML_VIBRANCY": {
+                "type": "INTEGER"
+            },
+            "CML_FADE": {
+                "type": "INTEGER"
+            },
+            "CHROMA_X": {
+                "type": "INTEGER"
+            },
+            "CHROMA_Y": {
+                "type": "INTEGER"
+            },
+            "CML_STATE": {
+                "type": "INTEGER"
+            },
+            "CML_SETPOINT": {
+                "type": "INTEGER"
+            },
+            "CML_CCT": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "CML_HUE": {
+                "type": "INTEGER"
+            },
+        "CML_SATURATION": {
+                "type": "INTEGER"
+            },
+        "CML_LIGHTNESS": {
+                "type": "INTEGER"
+            }
+        },
+        "light_shade": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+            "CML_SETPOINT": {
+                "type": "INTEGER"
+            },
+            "CML_STATE": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "light_switch": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+           
+            "CML_STATE": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+     "light_dimmable_light": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+            "CML_SETPOINT": {
+                "type": "INTEGER"
+            },
+            "CML_STATE": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+    
+        "light_keypad": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+            "CML_SETPOINT": {
+                "type": "INTEGER"
+            },
+            "CML_STATE": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "light_smartplug": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+            "CML_SETPOINT": {
+                "type": "INTEGER"
+            },
+            "CML_STATE": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "air_hvac": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+            "CML_SET_POINT_LIMIT": {
+                "type": "INTEGER"
+            },
+            "CML_FAN_SPEED": {
+                "type": "INTEGER"
+            },
+            "CML_MODE": {
+                "type": "INTEGER"
+            },
+            "CML_LOWER_POINT": {
+                "type": "INTEGER"
+            },
+            "CML_HIGHEST_POINT": {
+                "type": "INTEGER"
+            },
+            
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "air_airpurifier": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+            "CML_FAN_SPEED": {
+                "type": "INTEGER"
+            },
+            "CML_STATE": {
+                "type": "INTEGER"
+            },
+            "CML_MODE": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+             "CML_AUTO":{
+                "type":"INTEGER"
+            }
+        },
+        "sounds_music": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+            "CML_SETPOINT": {
+                "type": "INTEGER"
+            },
+            "CML_MUTE": {
+                "type": "INTEGER"
+            },
+            "CML_STATE": {
+                "type": "INTEGER"
+            },
+            "CML_MODE": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "SONGS":{
+                "type": "TEXT"
+            }
+        },
+        "aqi_data": {
+            "ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SERIAL_ID": {
+                "type": "TEXT"
+            },
+            "temperature": {
+                "type": "INTEGER"
+            },
+            "humidity": {
+                "type": "INTEGER"
+            },
+            "pm2_5": {
+                "type": "INTEGER"
+            },
+            "pm10": {
+                "type": "INTEGER"
+            },
+            "co2": {
+                "type": "INTEGER"
+            },
+            "tvoc": {
+                "type": "INTEGER"
+            },
+            "time": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "co": {
+                "type": "INTEGER"
+            },
+            "pm1": {
+                "type": "INTEGER"
+            }
+        },
+        "physio_data": {
+            "ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "username": {
+                "type": "TEXT"
+            },
+            "heart_rate": {
+                "type": "TEXT"
+            },
+            "spO2": {
+                "type": "TEXT"
+            },
+            "motion": {
+                "type": "TEXT"
+            },
+            "distance_travelled": {
+                "type": "TEXT"
+            },
+            "calories_burned": {
+                "type": "TEXT"
+            },
+            "steps": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "timestamp": {
+                "type": "INTEGER"
+            }
+        },
+        "sleep_data": {
+            "ID": {
+              "type": "TEXT",
+              "pk": "true"
+            },
+            "CML_SERIAL_ID": {
+              "type": "TEXT"
+            },
+            "username": {
+              "type": "TEXT"
+            },
+            "sleep_duration": {
+              "type": "INTEGER"
+            },
+            "deep_sleep_duration": {
+              "type": "INTEGER"
+            },
+            "light_sleep_duration": {
+              "type": "INTEGER"
+            },
+            "rem_sleep_duration": {
+              "type": "INTEGER"
+            },
+            "sleep_start_time": {
+              "type": "INTEGER"
+            },
+            "sleep_end_time": {
+              "type": "INTEGER"
+            },
+            "snoring": {
+              "type": "INTEGER"
+            },
+            "snoring_episode_count": {
+              "type": "INTEGER"
+            },
+            "wake_up_count": {
+              "type": "INTEGER"
+            },
+            "wake_up_duration": {
+              "type": "INTEGER"
+            },
+            "entity_type": {
+              "type": "TEXT"
+            },
+             "timestamp": {
+              "type": "TEXT"
+            },
+        "avg_heart_rate": {
+          "type": "INTEGER"
+        },
+        "avg_resp_rate": {
+          "type": "INTEGER"
+        },
+        "sleep_score": {
+          "type": "INTEGER"
+        },
+        "total_time_in_bed": {
+           "type": "INTEGER"
+        }
+        },
+    "sleep_intra": {
+            "ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SERIAL_ID": {
+                "type": "TEXT"
+            },
+            "startTs": {
+                "type": "INTEGER"
+            },
+            "endTs": {
+                "type": "INTEGER"
+            },
+            "state": {
+                "type": "INTEGER"
+            },
+            "heart_rate": {
+                "type": "TEXT"
+            },
+            "resp_rate": {
+                "type": "TEXT"
+            },
+            "snoring": {
+                "type": "TEXT"
+            },
+            "sdnn": {
+                "type": "TEXT"
+            },
+            "rmssd": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "timestamp":
+            {
+                "type":"TEXT"
+            }
+            
+        },
+        "group_map":{
+            "ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "GROUP_ID":{
+                "type": "TEXT"
+            },
+            "MEMBER_ID": {
+                "type": "TEXT"
+            },
+            "PROPERTY_ID": {
+                "type": "TEXT"
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_GROUP_TYPE": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "role": {
+            "ID":{
+                "type": "TEXT",
+                "pk":"true"
+            },
+            "ROLE": {
+                "type": "INTEGER"
+            },
+            "ROLE_NAME": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "ACCESS": {
+                "type": "INTEGER"
+            },
+        "addedby": {
+                "type": "TEXT"
+            },
+        "UNIQUE":
+                {
+                    "ROLE_NAME":"TEXT"
+                }
+        },
+        "rule": {
+            "ID":{
+                "type": "TEXT",
+                "pk":"true"
+            },
+            "RULE_ID": {
+                "type": "INTEGER"
+            },
+            "RULE_NAME": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "DETAILS": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "addedby": {
+                "type": "TEXT"
+            }
+    
+        },
+        "role_map": {
+            "ID":{
+                "type": "TEXT",
+                "pk":"true"
+            },
+            "ROLE": {
+                "type": "INTEGER"
+            },
+            "RULE_ID": {
+                "type": "INTEGER"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "ACCESS": {
+                "type": "INTEGER"
+            },
+        "addedby": {
+                "type": "TEXT"
+            }
+        },
+        "user_access_details": {
+            "ID":{
+                "type": "TEXT",
+                "pk":"true"
+            },
+            "username": {
+                "type": "TEXT"
+            },
+            "floor": {
+                "type": "TEXT"
+            },
+            "room": {
+                "type": "TEXT"
+            },
+            "device": {
+                "type": "TEXT"
+            },
+            "startTs": {
+                "type": "INTEGER"
+            },
+            "endTs": {
+                "type": "INTEGER"
+            },   
+            "userId": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "device_relation": {
+            "ID":{
+                "type": "TEXT",
+                "pk":"true"
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            "MEMBER_TARGET": {
+                "type": "TEXT"
+            },
+            "DEVICE_TYPE": {
+                "type": "TEXT"
+            },
+            "MEMBER_TYPE": {
+                "type": "TEXT"
+            },    
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "CONNECTION": {
+                "type": "TEXT"
+            },
+            "DEVICE_ID": {
+                "type": "TEXT"
+            },
+            "MEMBER_ID": {
+                "type": "TEXT"
+            }
+        },
+        "oaqi": {
+            "ID":{
+                "type": "TEXT",
+                "pk":"true"
+            },
+            "LKEY_VAL":  {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_COUNTRY_DESCRIPTION": {
+                "type": "TEXT"
+            },
+            "CML_DATETIME": {
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_CO_CONCENTRATION":{
+                "type": "INTEGER"
+            },    
+            "CML_POLLUTANTS_CO_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_CO_POLLUTANT_UNITS":{
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_NO2_CONCENTRATION": {
+                "type": "INTEGER"
+            },    
+            "CML_POLLUTANTS_NO2_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_NO2_POLLUTANT_UNITS":{
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_O3_CONCENTRATION": {
+                "type": "INTEGER"
+            },    
+            "CML_POLLUTANTS_O3_POLLUTANT_DESCRIPTION": {
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_O3_POLLUTANT_UNITS": {
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_PM10_CONCENTRATION": {
+                "type": "INTEGER"
+            },    
+            "CML_POLLUTANTS_PM10_POLLUTANT_DESCRIPTION":{
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_PM10_POLLUTANT_UNITS":{
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_PM25_CONCENTRATION":{
+                "type": "INTEGER"
+            },    
+            "CML_POLLUTANTS_PM25_POLLUTANT_DESCRIPTION":{
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_PM25_POLLUTANT_UNITS":{
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_S02_CONCENTRATION": {
+                "type": "INTEGER"
+            },    
+            "CML_POLLUTANTS_S02_POLLUTANT_DESCRIPTION":{
+                "type": "TEXT"
+            },
+            "CML_POLLUTANTS_S02_POLLUTANT_UNITS": {
+                "type": "TEXT"
+            },
+            "CML_SUNRISE_TIME": {
+                "type": "TEXT"
+            },
+            "CML_SUNSET_TIME": {
+                "type": "TEXT"
+            },
+            "CML_WEATHER_TEXT": {
+                "type": "TEXT"
+            },
+            "CML_TEMPERATURE": {
+                "type": "INTEGER"
+            },    
+            "CML_TEMPERATURE_UNIT": {
+                "type": "TEXT"
+            },
+            "CML_RELATIVE_HUMIDITY": {
+                "type": "INTEGER"
+            },    
+            "CML_ICON_CODE": {
+                "type": "INTEGER"
+            },    
+            "CML_COUNTRY_NAME": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },    
+            "entity_type": {
+                "type": "TEXT"
+            },
+         "CML_OAQI_AQI": {
+             "type": "INTEGER"
+            },    
+         "CML_WIND_DIRECTION":{
+                "type": "INTEGER"
+            },
+            "CML_WIND":{
+             "type": "INTEGER"
+             },
+             "CML_WIND_UNIT":{
+             "type": "TEXT"
+             },
+             "CML_FEEL_LIKE_TEMPERATURE":{
+             "type": "INTEGER"
+             },
+             "CML_FEEL_LIKE_TEMPERATURE_UNIT":{
+             "type": "TEXT"
+             },
+        "CML_UPDATED_TIME":{
+                 "type": "INTEGER"
+             },
+         "CML_PRESSURE":{
+               "type": "TEXT"
+        },
+            "CML_PRECIP":{
+               "type": "TEXT" 
+        },
+        "CML_OAQI_COLOR":{
+               "type": "TEXT" 
+        },
+        "CML_OAQI_DESCRIPTION":{
+               "type": "TEXT" 
+        },
+        "CML_UV_INDEX":{
+                 "type": "INTEGER"
+             },
+        "CML_WIND_DIR":{
+               "type": "TEXT" 
+        },
+        "CML_WINDCHILL":{
+               "type": "INTEGER" 
+        },
+        "CML_OAQI_INDEX":{
+               "type": "INTEGER" 
+        },
+        "LOCATION_ID":{
+               "type": "TEXT" 
+        },
+        "LOCATION_NAME":{
+            "type":"TEXT"
+        },
+        "CML_TEMPERATURE_CELCIUS":{
+            "type":"TEXT"
+        },
+        "CML_WIND_MPH":{
+            "type":"TEXT"
+        }
+        },
+        "firmware":{
+            "ID":{
+            "type": "TEXT",
+                        "pk": "true"
+            },
+            "NAME":{
+            "type": "TEXT"
+            },
+            "VERSION":{
+            
+            "type": "TEXT"
+            },
+            "TIME_OF_UPDATION":{
+            
+            "type": "TEXT"
+            },
+            
+            "entity_type": {
+                        "type": "TEXT"
+                    },
+            "UNIQUE":
+                {
+                    "NAME":"TEXT"                
+                }
+                 },
+        "database":{
+            "ID":{
+            "type": "TEXT",
+            "pk": "true"
+            },
+            "CONFIG_TIME":{
+            "type": "TEXT"
+            },
+            "CONFIG_USER":{
+            "type": "TEXT"
+            },
+            "CONFIG_ACTION":{
+                     "type": "TEXT"
+            },
+            "DB_MIGRATION_FLAG":{
+            "type": "TEXT"
+            },
+            "CML_HUB_MODE":{
+                        "type": "TEXT"
+                    },
+            "CML_CONFIG_COUNT":{
+                        "type": "INTEGER"
+                    },
+            "CML_CONFIG_START_TIME":{
+                        "type": "TEXT"
+                    },
+            "CML_CONFIG_END_TIME":{
+                        "type": "TEXT"
+                    },
+            "entity_type": {
+                        "type": "TEXT"
+                        },
+            "CML_SOURCE":{
+                 "type":"TEXT"       
+            }                   
+                 },
+    "schedule_details":{
+        "ID":{
+            "type": "TEXT",
+            "pk": "true"
+            },
+        "TARGET":{
+            "type": "TEXT"
+            },
+        "CML_SCENE_ID":
+        {
+        "type": "INTEGER"
+        },
+        "DATE":
+        {
+        "type": "INTEGER"
+        },
+        "CML_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "to_hour":
+        {
+        "type": "INTEGER"
+        },
+        "from_hour":
+        {
+         "type": "INTEGER"
+        },
+        "to_min":
+        {
+        "type": "INTEGER"
+        },
+        "from_min":
+        {
+        "type": "INTEGER"
+        },
+        "entity_type":{
+            "type": "TEXT"
+            },
+        "weekdays":{
+            "type": "TEXT"
+            },
+        "CML_REPEAT_FLAG":{
+            "type": "INTEGER"
+        },
+        "RUNNING_SCENE_FLAG":{
+            "type": "INTEGER"
+        },
+        "CURRENT_WEEK":{
+                "type":"INTEGER"
+        },
+        "SUPPORTED_DEVICE_TYPES": {
+            "type": "TEXT"
+            },
+        "CURRENT_DAY":{
+                "type":"INTEGER"
+        },
+        "CURRENT_YEAR":{
+                "type":"INTEGER"
+        },
+        "CREATED_ON": {
+            "type": "TEXT"
+        },
+        "MODIFIED_ON": {
+            "type": "TEXT"
+        },
+        "REFERENCE_KEY":{
+            "type": "TEXT"
+        },
+        "deleted_flag":{
+            "type":"TEXT"
+        },
+         "PLAY_LIST_ID":{
+            "type": "TEXT"
+            },
+        "TRACK_URI":
+        {
+        "type": "TEXT"
+        },
+        "constant":
+        {
+        "type": "TEXT"
+        },
+        "schedule_relation":
+        {
+            "type":"TEXT"
+        },
+        "activate_now":
+        {
+        "type":"INTEGER"
+        },
+        "schedule_devices":
+        {
+            "type":"TEXT"
+        },
+        "wakeup_slot":
+        {
+        "type":"INTEGER"
+        },
+        "sleep_slot":
+        {
+        "type":"INTEGER"
+        },
+        "sleep_schedule":
+        {
+        "type":"INTEGER"
+        },
+        "CML_TITLE":
+        {
+        "type":"TEXT"    	                                       
+        },
+        "schedule_date":
+        {
+        "type":"TEXT"
+        },
+        "KEY_VAL":
+        {
+        "type":"TEXT"
+        },
+        "TIMESTAMP":
+        {
+        "type":"INTEGER"
+        }	      	   	      	                                   
+    },
+    "package_details":{
+        "PACKAGE_ID":{
+            "type": "TEXT",
+            "pk": "true"
+            },
+        "CML_TITLE":{
+            "type": "TEXT"
+            },
+        "CML_IMAGE_PATH":
+        {
+        "type": "TEXT"
+        },
+        "CML_PACKAGE_BY":
+        {
+        "type": "TEXT"
+        },
+        "KEY_VAL":
+        {
+        "type": "TEXT"
+        },
+        "CML_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "CML_SUB_TYPE":
+        {
+         "type": "TEXT"
+        },
+        "entity_type":{
+            "type": "TEXT"
+            },
+        "PACKAGE_ACTIVATED_FLAG": {
+                "type": "INTEGER"
+            },
+        "ACTIVATED_TIME": {
+                "type": "INTEGER"
+            },
+        "PROGRAM_TITLE":{
+        "type": "TEXT"
+        },
+        "SUBSCRIPTION":{
+            "type": "TEXT"
+        },
+        "VALIDITY":{
+            "type": "TEXT"
+        },
+        "ORGANIZATION_NAME":{
+            "type": "TEXT"
+        },
+        "CML_LOCAL_IMG_PATH": {
+                "type": "TEXT"
+            }
+        
+    },
+        "product_manufacturer":{
+        "CML_MANUFACTURER_ID":{
+            "type": "TEXT",
+            "pk": "true"
+            },
+        "CML_MANUFACTURER_NAME":{
+            "type": "TEXT"
+            },
+        "CML_MANUFACTURER_KEY_VAL":
+        {
+        "type": "TEXT"
+        },
+        "CML_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "CML_SUB_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "entity_type":{
+            "type": "TEXT"
+            },
+        "CML_SHORT_NAME":
+        {
+        "type": "TEXT"
+        },
+        "PACKAGE_ACTIVATED_FLAG": {
+                "type": "INTEGER"
+            },
+        "MODEL_NUMBER":
+        {
+        "type": "TEXT"
+        }
+    },
+            "package_device_relation":{
+        "PACKAGE_RELATION":{
+            "type": "TEXT",
+            "pk": "true"
+            },
+        "PACKAGE_ID":{
+            "type": "TEXT"
+            },
+        "CML_MANUFACTURER_ID":{
+            "type": "TEXT"
+            },
+        "PRODUCT_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "PRODUCT_ALLOWED_COUNT":
+        {
+        "type": "INTEGER"
+        },
+        "CML_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "CML_SUB_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "entity_type":{
+            "type": "TEXT"
+            },
+        "CML_SHORT_NAME":
+        {
+        "type": "TEXT"
+        },
+        "PACKAGE_ACTIVATED_FLAG": {
+                "type": "INTEGER"
+            },
+        "MODEL_NUMBER":
+        {
+        "type": "TEXT"
+        },
+        "WATT": {
+                "type": "INTEGER"
+            },
+        "CML_IMAGE_PATH":{
+        "type": "TEXT"
+        },
+        "CML_LOCAL_IMG_PATH": {
+                "type": "TEXT"
+            }
+    },
+    "backup":{
+        "ID":{
+            "type": "TEXT",
+            "pk": "true"
+            },
+        "FILE_PATH":{
+            "type": "TEXT"
+            },
+        "FILE_SIZE":{
+            "type": "TEXT"
+            },
+        "BK_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "UPLOAD_TIME":
+        {
+        "type": "TEXT"
+        },
+        "entity_type":{
+            "type": "TEXT"
+            }
+    },
+    "device_types":{
+            "DEVICE_TYPE_ID":{
+                "type": "TEXT",
+                "pk": "true"
+                },
+            "SHORT_NAME":{
+                "type": "TEXT"
+                },
+             "LONG_NAME":{
+                "type": "TEXT"
+                },
+             "DEVICE_FAMILY":{
+                "type": "INTEGER"
+                },
+             "CONCEPT":{
+                "type": "TEXT"
+                },
+            "entity_type":{
+                "type": "TEXT"
+                }
+    },
+    "interfaces_relation":{
+            "ID":{
+            "type": "TEXT",
+                        "pk": "true"
+            },
+            "INTERFACE_ID":{
+            "type": "TEXT"
+            },
+            "CML_SHORT_NAME":{
+            
+            "type": "TEXT"
+            },
+            "entity_type": {
+                        "type": "TEXT"
+                    }
+                 },
+    "mapping_structure_device":{
+            "ID":{
+            "type": "TEXT",
+            "pk": "true"
+            },
+            "CML_TYPE":{
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE":{
+                "type": "TEXT"
+            },
+            "TARGET":{
+                "type": "TEXT"
+            },
+            "MAP_ID":{
+                "type": "TEXT"
+            },
+            "PARENT_ID":{
+                "type": "TEXT"
+            },
+            "DRIVER_ID":{
+                "type": "TEXT"
+            },
+            "entity_type":{
+                "type": "TEXT"
+            }
+        },
+    "hub_support":{
+            "ID":{
+            "type": "TEXT",
+            "pk": "true"
+            },
+            "EMAIL_ID":{
+                "type": "TEXT"
+            },
+            "MOBILE_NO":{
+                "type": "TEXT"
+            },
+            "ORG_NAME":{
+                "type": "TEXT"
+            },
+            "ORG_ADDRESS":{
+                "type": "TEXT"
+            },
+            "CREATED_ON":{
+                "type": "TEXT"
+            },
+            "CREATED_BY":{
+                "type": "TEXT"
+            },
+            "MODIFIED_ON":{
+                "type": "TEXT"
+            },
+            "MODIFIED_BY":{
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS":{
+                "type": "INTEGER"
+            },
+            "SUPPORT_LINK":{
+                "type": "TEXT"
+            },
+            "entity_type":{
+                "type": "TEXT"
+            }
+        },
+    "nonsmart_light_led": {
+            "U_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_SCENE_ID": {
+                "type": "INTEGER"
+            },
+            "SLOT": {
+                "type": "TEXT"
+            },
+            "CML_TEMPERATURE": {
+                "type": "INTEGER"
+            },
+            "CML_VIBRANCY": {
+                "type": "INTEGER"
+            },
+            "CML_FADE": {
+                "type": "INTEGER"
+            },
+            "CHROMA_X": {
+                "type": "INTEGER"
+            },
+            "CHROMA_Y": {
+                "type": "INTEGER"
+            },
+            "CML_STATE": {
+                "type": "INTEGER"
+            },
+            "CML_SETPOINT": {
+                "type": "INTEGER"
+            },
+            "CML_CCT": {
+                "type": "INTEGER"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+    "household_device_mapping": {
+            "ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "DEVICE_ID": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SERIAL_ID": {
+                "type": "TEXT"
+            },
+            "CML_MANUFACTURER_ID": {
+                "type": "TEXT"
+            },
+            "MODEL_NUMBER": {
+                "type": "TEXT"
+            },
+            "INTERFACE_ID": {
+                "type": "TEXT"
+            },
+            "CML_HOUSEHOLD_ID": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+        "ROOM_ID": {
+                "type": "TEXT"
+            },
+        "FLOOR_ID": {
+                "type": "TEXT"
+            }
+        },
+    "devicesLite": {
+            "DEVICE_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "STRUCTURE_ID": {
+                "type": "TEXT",
+        "references": {
+                    "tableName": "structure",
+                    "cols": [
+                        "STRUCTURE_ID"
+                    ],
+                    "cascade": true
+                }
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "SYNC_PENDING_STATUS": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY": {
+                "type": "TEXT"
+            },
+            "CREATED_ON": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_BY": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_MANUFACTURER_NAME": {
+                "type": "TEXT"
+            },
+            "CML_MANUFACTURER_ID": {
+                "type": "TEXT"
+            },
+            "CML_SERIAL_ID": {
+                "type": "TEXT"
+            },
+            "CML_NAME": {
+                "type": "TEXT"
+            },
+            "CML_TESTABLE": {
+                "type": "TEXT"
+            },
+            "CML_MAC_ID": {
+                "type": "TEXT"
+            },
+            "CML_INSTALLATION_DATE": {
+                "type": "TEXT"
+            },
+            "CML_CONTROLLER_ID": {
+                "type": "TEXT"
+            },
+            "CML_CONTROL_MODE": {
+                "type": "INTEGER"
+            },
+            "CML_EXPIRY_DATE": {
+                "type": "TEXT"
+            },
+            "IO_MODE": {
+                "type": "INTEGER"
+            },
+            "INPUT_PROTOCOL": {
+                "type": "TEXT"
+            },
+            "OUTPUT_PROTOCOL": {
+                "type": "TEXT"
+            },
+            "CML_SUPPORTING_ZONE": {
+                "type": "TEXT"
+            },
+            "CML_SUPPORTED_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_DEVICE_FIRMWARE": {
+                "type": "TEXT"
+            },
+            "MODEL_NUMBER": {
+                "type": "TEXT"
+            },
+            "OWNER_ID": {
+                "type": "TEXT"
+            },
+            "override": {
+                "type": "TEXT"
+            },
+            "concept": {
+                "type": "TEXT"
+            },
+             "COLOR_SUPPORTED": {
+                "type": "INTEGER"
+            },
+            "CML_DEVICE_REF": {
+                "type": "TEXT"
+            },
+            "CML_GROUP_REF": {
+                "type": "TEXT"
+            },
+            "CREDENTIAL_ID": {
+              "type": "TEXT"
+            },
+            "INTERFACE_ID": {
+              "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "CML_SWITCH_CNTR_ID":{
+            "type":"TEXT"
+        },
+        "CML_SHORT_NAME":
+        {
+        "type": "TEXT"
+        },
+        "DEVICE_TYPE_ID":
+        {
+        "type": "TEXT"
+        },
+        "PRODUCT_ID":
+        {
+        "type": "TEXT"
+        },
+        "CML_HOUSEHOLD_ID":
+        {
+        "type": "TEXT"
+        },
+        "INDEX_NO":{
+                "type":"TEXT"
+            },
+            "CUSTOM_USER_NAME":{
+                "type":"TEXT"
+            },
+            "WATT":{
+                "type": "INTEGER"
+            },
+        "UNIQUE":
+                {
+                    "CML_TITLE":"TEXT",
+                    "CUSTOM_USER_NAME" : "TEXT"
+                    
+                }
+        },
+    "structureLite": {
+            "STRUCTURE_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            "PROPERTY_ID": {
+                "type": "TEXT",
+            "references":{
+                 "tableName":"property",
+            "cols": [ "PROPERTY_ID"],
+                
+            "cascade": true
+            }
+            },
+            "FLOOR_ID": {
+                "type": "TEXT"
+            },
+            "ROOM_ID": {
+                "type": "TEXT"
+            },
+            "GROUP_ID": {
+                "type": "TEXT"
+            },
+            
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "SYNC_PENDING_STATUS": {
+                "type": "INTEGER"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CREATED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY": {
+                "type": "TEXT"
+            },
+            "CREATED_ON": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_BY": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+    
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "PROJECT_ID": {
+                "type": "TEXT"
+            },
+            "CREDENTIAL_ID":{
+                "type":"TEXT"
+            },
+            "INTERFACE_ID":{
+                "type":"TEXT"
+            },
+           "UNIQUE":
+                {
+                   "TARGET":"TEXT"           
+                }
+        },
+    "driver_structure_relation": {
+        "ID": {
+            "type": "TEXT",
+            "pk": "true"
+          },
+          "DRIVER_ID": {
+            "type": "TEXT"
+          },
+          "CREDENTIAL_ID": {
+            "type": "TEXT"
+          },
+          "ROOM_ID": {
+            "type": "TEXT"
+          },
+          "ROOM_NAME": {
+            "type": "TEXT"
+          },
+          "STRUCTURE_ID": {
+            "type": "TEXT"
+          },
+          "DEVICE_ID": {
+            "type": "TEXT"
+          },
+          "TARGET": {
+            "type": "TEXT"
+          },
+          "ACTIVE_STATUS": {
+            "type": "TEXT"
+          },
+          "CML_TITLE": {
+            "type": "TEXT"
+          },
+          "action": {
+            "type": "TEXT"
+          },
+          "entity_type": {
+            "type": "TEXT"
+          },
+           "UNIQUE":
+                {
+                    "DRIVER_ID":"TEXT",
+            "TARGET":"TEXT"                
+                }
+        },
+    "future_schedule":{
+        "ID":{
+            "type": "TEXT",
+            "pk": "true"
+            },
+        "TARGET":{
+            "type": "TEXT"
+            },
+        "CML_SCENE_ID":
+        {
+        "type": "INTEGER"
+        },
+        "DATE":
+        {
+        "type": "INTEGER"
+        },
+        "CML_TYPE":
+        {
+        "type": "TEXT"
+        },
+        "to_hour":
+        {
+        "type": "INTEGER"
+        },
+        "from_hour":
+        {
+         "type": "INTEGER"
+        },
+        "to_min":
+        {
+        "type": "INTEGER"
+        },
+        "from_min":
+        {
+        "type": "INTEGER"
+        },
+        "entity_type":{
+            "type": "TEXT"
+            },
+        "weekdays":{
+            "type": "TEXT"
+            },
+        "CML_REPEAT_FLAG":{
+            "type": "INTEGER"
+        },
+        "RUNNING_SCENE_FLAG":{
+            "type": "INTEGER"
+        },
+        "CURRENT_WEEK":{
+                "type":"INTEGER"
+        },
+        "SUPPORTED_DEVICE_TYPES": {
+            "type": "TEXT"
+            },
+        "CURRENT_DAY":{
+                "type":"INTEGER"
+        },
+        "CURRENT_YEAR":{
+                "type":"INTEGER"
+        },
+        "CREATED_ON": {
+            "type": "TEXT"
+        },
+        "MODIFIED_ON": {
+            "type": "TEXT"
+        },
+        "REFERENCE_KEY":{
+            "type": "TEXT"
+        },
+        "deleted_flag":{
+            "type":"TEXT"
+        },
+        "future_week":{
+            "type":"TEXT"
+        },
+         "PLAY_LIST_ID":{
+            "type": "TEXT"
+            },
+        "TRACK_URI":
+        {
+        "type": "TEXT"
+        },
+        "constant":
+        {
+        "type": "TEXT"
+        },
+        "schedule_relation":
+        {
+        "type":"TEXT"
+        },
+        "activate_now":
+        {
+        "type":"INTEGER"
+        },
+        "schedule_devices":
+        {
+            "type":"TEXT"
+            },
+        "wakeup_slot":
+        {
+        "type":"INTEGER"
+        },
+        "sleep_slot":
+        {
+        "type":"INTEGER"
+        },
+        "sleep_schedule":
+        {
+        "type":"INTEGER"
+        },
+        "schedule_date":
+        {
+        "type":"TEXT"
+        },
+        "CML_TITLE":
+        {
+        "type":"TEXT"    	                                       
+        }
+        
+       },
+       
+    "user_device_map":{
+            "ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "DEVICE_ID":{
+                "type": "TEXT"
+            },
+            "RECOVERY_MAIL": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+    "nonsmart_light_led":  {
+         "U_ID": {
+    "type": "TEXT",
+    "pk": "true"
+         },
+        "CML_SCENE_ID": {
+             "type": "INTEGER"
+         },
+     "SLOT": {
+     "type": "TEXT"
+     },
+     "CML_TEMPERATURE": {
+     "type": "INTEGER"
+     },
+     "CML_VIBRANCY": {
+     "type": "INTEGER"
+     },
+     "CML_FADE": {
+     "type": "INTEGER"
+     },
+     "CHROMA_X": {
+     "type": "INTEGER"
+     },
+     "CHROMA_Y": {
+     "type": "INTEGER"
+     },
+     "CML_STATE": {
+     "type": "INTEGER"
+     },
+     "CML_SETPOINT": {
+     "type": "INTEGER"
+     },
+     "CML_CCT": {
+     "type": "INTEGER"
+     },
+     "entity_type": {
+     "type": "TEXT"
+     }
+     },
+    "org_map": {
+            "ORG_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "CML_EMAIL_ID": {
+                "type": "TEXT"
+            },
+            "CML_IMAGE_PATH": {
+                "type": "TEXT"
+            },
+            "CML_FIRST_NAME": {
+                "type": "TEXT"
+            },
+            "CML_LAST_NAME": {
+                "type": "INTEGER"
+            },
+            "CML_TITLE": {
+                "type": "INTEGER"
+            },
+            "PROPERTY_ID": {
+                "type": "TEXT",
+        "references": {
+                    "tableName": "property",
+                    "cols": [
+                        "PROPERTY_ID"
+                    ],
+                    "cascade": true
+                }
+            },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+    "orgnisation": {
+            "ORGNISATION_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CREATED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY": {
+                "type": "TEXT"
+            },
+            "CREATED_ON": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_BY": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "CML_IMAGE_PATH": {
+                "type": "TEXT"
+            },
+           "CML_LOCAL_IMG_PATH": {
+                "type": "TEXT"
+            },
+            "CML_COUNTRY":{
+                "type":"TEXT"
+            },
+            "CML_STATE":{
+                "type":"TEXT"
+            },
+            "CML_CITY":{
+                "type":"TEXT"
+            },
+            "CML_LOCATION":{
+                "type":"TEXT"
+            },
+            "CML_IS_ENTERPRISE":{
+                "type":"INTEGER"
+            }
+        },
+    
+    
+    "department": {
+            "DEPARTMENT_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CREATED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY": {
+                "type": "TEXT"
+            },
+            "CREATED_ON": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_BY": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON": {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "CML_IMAGE_PATH": {
+                "type": "TEXT"
+            },
+           "CML_LOCAL_IMG_PATH": {
+                "type": "TEXT"
+            },
+            "CML_COUNTRY":{
+                "type":"TEXT"
+            },
+            "CML_STATE":{
+                "type":"TEXT"
+            },
+            "CML_CITY":{
+                "type":"TEXT"
+            },
+            "CML_LOCATION":{
+                "type":"TEXT"
+            },
+            "CML_IS_ENTERPRISE":{
+                "type":"INTEGER"
+            }
+        },
+    "oneMinuteStatus":{
+            "CML_INDOOR_TEMPERATURE":  {
+                "type": "INTEGER"
+                    },
+            "CML_INDOOR_HUMIDITY": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_TVOC": {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_PM25": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_PM10":  {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_CARBON_DIOXIDE":  {
+                        "type": "INTEGER"
+                    },               
+            "AQI_INDEX":  {
+                        "type": "INTEGER"
+                    },
+            "CML_OAQI_AQI":  {
+                        "type": "INTEGER"
+                    },                
+            "coConcentration":  {
+                        "type": "INTEGER"
+                    },                
+            "pm10Concentration":  {
+                        "type": "INTEGER"
+                    }, 
+            "pm25Concentration": {
+                        "type": "INTEGER"
+                    },
+            "CML_TEMPERATURE":  {
+                        "type": "INTEGER"
+                    },                
+            "CML_RELATIVE_HUMIDITY":  {
+                        "type": "INTEGER"
+                    },
+            "CML_HUBSERIAL_ID":{   
+                "type":"TEXT"
+                },
+             "entity_type": {
+                "type": "TEXT"
+            },
+            "DEVICE_ID":{
+                "type":"TEXT"
+            },
+            "TIMESTAMP":{
+                "type":"TEXT"
+            },
+            "CML_INDOOR_CO":  {
+                "type": "INTEGER"
+            },                 
+            "CML_INDOOR_PM1":  {
+                "type": "INTEGER"
+            },
+            "LOCATION_NAME":{
+                "type":"TEXT"
+            },
+            "CML_TEMPERATURE_CELCIUS":{
+                "type":"TEXT"
+            },
+            "CML_WIND_MPH":{
+                "type":"TEXT"
+            },
+            "CML_WEATHER_TEXT":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIRECTION":{
+                "type":"INTEGER"
+            },
+            "CML_WIND":{
+                "type":"INTEGER"
+            },
+            "CML_PRESSURE":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIR":{
+                "type":"TEXT"
+            }
+               
+        },
+        
+    "fiveMinuteStatus":{
+            "CML_INDOOR_TEMPERATURE":  {
+                "type": "INTEGER"
+                    },
+            "CML_INDOOR_HUMIDITY": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_TVOC": {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_PM25": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_PM10":  {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_CARBON_DIOXIDE":  {
+                        "type": "INTEGER"
+                    },               
+            "AQI_INDEX":  {
+                        "type": "INTEGER"
+                    },
+            "CML_OAQI_AQI":  {
+                        "type": "INTEGER"
+                    },                
+            "coConcentration":  {
+                        "type": "INTEGER"
+                    },                
+            "pm10Concentration":  {
+                        "type": "INTEGER"
+                    }, 
+            "pm25Concentration": {
+                        "type": "INTEGER"
+                    },
+            "CML_TEMPERATURE":  {
+                        "type": "INTEGER"
+                    },                
+            "CML_RELATIVE_HUMIDITY":  {
+                        "type": "INTEGER"
+                    },
+            "CML_HUBSERIAL_ID":{   
+                "type":"TEXT"
+            },
+             "entity_type": {
+                "type": "TEXT"
+            },
+            "DEVICE_ID":{
+                "type":"TEXT"
+            },
+            "TIMESTAMP":{
+                "type":"TEXT"
+            },
+            "CML_INDOOR_CO":  {
+                "type": "INTEGER"
+            },                 
+            "CML_INDOOR_PM1":  {
+                "type": "INTEGER"
+            },
+            "LOCATION_NAME":{
+                "type":"TEXT"
+            },
+            "CML_TEMPERATURE_CELCIUS":{
+                "type":"TEXT"
+            },
+            "CML_WIND_MPH":{
+                "type":"TEXT"
+            },
+            "CML_WEATHER_TEXT":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIRECTION":{
+                "type":"INTEGER"
+            },
+            "CML_WIND":{
+                "type":"INTEGER"
+            },
+            "CML_PRESSURE":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIR":{
+                "type":"TEXT"
+            }
+        } 
+        ,
+        
+    "fifteenMinuteStatus":{
+            "CML_INDOOR_TEMPERATURE":  {
+                "type": "INTEGER"
+                    },
+            "CML_INDOOR_HUMIDITY": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_TVOC": {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_PM25": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_PM10":  {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_CARBON_DIOXIDE":  {
+                        "type": "INTEGER"
+                    },               
+            "AQI_INDEX":  {
+                        "type": "INTEGER"
+                    },
+            "CML_OAQI_AQI":  {
+                        "type": "INTEGER"
+                    },                
+            "coConcentration":  {
+                        "type": "INTEGER"
+                    },                
+            "pm10Concentration":  {
+                        "type": "INTEGER"
+                    }, 
+            "pm25Concentration": {
+                        "type": "INTEGER"
+                    },
+            "CML_TEMPERATURE":  {
+                        "type": "INTEGER"
+                    },                
+            "CML_RELATIVE_HUMIDITY":  {
+                        "type": "INTEGER"
+                    },
+            "CML_HUBSERIAL_ID":{   
+                "type":"TEXT"
+            },
+             "entity_type": {
+                "type": "TEXT"
+            },
+            "DEVICE_ID":{
+                "type":"TEXT"
+            },
+            "TIMESTAMP":{
+                "type":"TEXT"
+            },
+            "CML_INDOOR_CO":  {
+                "type": "INTEGER"
+            },                 
+            "CML_INDOOR_PM1":  {
+                "type": "INTEGER"
+            },
+            "LOCATION_NAME":{
+                "type":"TEXT"
+            },
+            "CML_TEMPERATURE_CELCIUS":{
+                "type":"TEXT"
+            },
+            "CML_WIND_MPH":{
+                "type":"TEXT"
+            },
+            "CML_WEATHER_TEXT":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIRECTION":{
+                "type":"INTEGER"
+            },
+            "CML_WIND":{
+                "type":"INTEGER"
+            },
+            "CML_PRESSURE":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIR":{
+                "type":"TEXT"
+            }
+        } 
+        ,
+        
+    "thirtyMinuteStatus":{
+            "CML_INDOOR_TEMPERATURE":  {
+                "type": "INTEGER"
+                    },
+            "CML_INDOOR_HUMIDITY": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_TVOC": {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_PM25": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_PM10":  {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_CARBON_DIOXIDE":  {
+                        "type": "INTEGER"
+                    },               
+            "AQI_INDEX":  {
+                        "type": "INTEGER"
+                    },
+            "CML_OAQI_AQI":  {
+                        "type": "INTEGER"
+                    },                
+            "coConcentration":  {
+                        "type": "INTEGER"
+                    },                
+            "pm10Concentration":  {
+                        "type": "INTEGER"
+                    }, 
+            "pm25Concentration": {
+                        "type": "INTEGER"
+                    },
+            "CML_TEMPERATURE":  {
+                        "type": "INTEGER"
+                    },                
+            "CML_RELATIVE_HUMIDITY":  {
+                        "type": "INTEGER"
+                    },
+            "CML_HUBSERIAL_ID":{   
+                "type":"TEXT"
+            },
+             "entity_type": {
+                "type": "TEXT"
+            },
+            "DEVICE_ID":{
+                "type":"TEXT"
+            },
+            "TIMESTAMP":{
+                "type":"TEXT"
+            },
+            "CML_INDOOR_CO":  {
+                "type": "INTEGER"
+            },                 
+            "CML_INDOOR_PM1":  {
+                "type": "INTEGER"
+            },
+            "LOCATION_NAME":{
+                "type":"TEXT"
+            },
+            "CML_TEMPERATURE_CELCIUS":{
+                "type":"TEXT"
+            },
+            "CML_WIND_MPH":{
+                "type":"TEXT"
+            },
+            "CML_WEATHER_TEXT":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIRECTION":{
+                "type":"INTEGER"
+            },
+            "CML_WIND":{
+                "type":"INTEGER"
+            },
+            "CML_PRESSURE":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIR":{
+                "type":"TEXT"
+            }
+            
+        } 
+        ,
+    "sixtyMinuteStatus":{
+            "CML_INDOOR_TEMPERATURE":  {
+                "type": "INTEGER"
+                    },
+            "CML_INDOOR_HUMIDITY": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_TVOC": {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_PM25": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_PM10":  {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_CARBON_DIOXIDE":  {
+                        "type": "INTEGER"
+                    },               
+            "AQI_INDEX":  {
+                        "type": "INTEGER"
+                    },
+            "CML_OAQI_AQI":  {
+                        "type": "INTEGER"
+                    },                
+            "coConcentration":  {
+                        "type": "INTEGER"
+                    },                
+            "pm10Concentration":  {
+                        "type": "INTEGER"
+                    }, 
+            "pm25Concentration": {
+                        "type": "INTEGER"
+                    },
+            "CML_TEMPERATURE":  {
+                        "type": "INTEGER"
+                    },                
+            "CML_RELATIVE_HUMIDITY":  {
+                        "type": "INTEGER"
+                    },
+            "CML_HUBSERIAL_ID":{   
+                "type":"TEXT"
+            },
+             "entity_type": {
+                "type": "TEXT"
+            },
+            "DEVICE_ID":{
+                "type":"TEXT"
+            },
+            "TIMESTAMP":{
+                "type":"TEXT"
+            },
+            "CML_INDOOR_CO":  {
+                "type": "INTEGER"
+            },                 
+            "CML_INDOOR_PM1":  {
+                "type": "INTEGER"
+            },
+            "LOCATION_NAME":{
+                "type":"TEXT"
+            },
+            "CML_TEMPERATURE_CELCIUS":{
+                "type":"TEXT"
+            },
+            "CML_WIND_MPH":{
+                "type":"TEXT"
+            },
+            "CML_WEATHER_TEXT":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIRECTION":{
+                "type":"INTEGER"
+            },
+            "CML_WIND":{
+                "type":"INTEGER"
+            },
+            "CML_PRESSURE":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIR":{
+                "type":"TEXT"
+            }
+          
+        },
+        "sixhourStatus":{
+            "CML_INDOOR_TEMPERATURE":  {
+                "type": "INTEGER"
+                    },
+            "CML_INDOOR_HUMIDITY": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_TVOC": {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_PM25": {
+                        "type": "INTEGER"
+                    },
+            "CML_INDOOR_PM10":  {
+                        "type": "INTEGER"
+                    },               
+            "CML_INDOOR_CARBON_DIOXIDE":  {
+                        "type": "INTEGER"
+                    },               
+            "AQI_INDEX":  {
+                        "type": "INTEGER"
+                    },
+            "CML_OAQI_AQI":  {
+                        "type": "INTEGER"
+                    },                
+            "coConcentration":  {
+                        "type": "INTEGER"
+                    },                
+            "pm10Concentration":  {
+                        "type": "INTEGER"
+                    }, 
+            "pm25Concentration": {
+                        "type": "INTEGER"
+                    },
+            "CML_TEMPERATURE":  {
+                        "type": "INTEGER"
+                    },                
+            "CML_RELATIVE_HUMIDITY":  {
+                        "type": "INTEGER"
+                    },
+            "CML_HUBSERIAL_ID":{   
+                "type":"TEXT"
+            },
+             "entity_type": {
+                "type": "TEXT"
+            },
+            "DEVICE_ID":{
+                "type":"TEXT"
+            },
+            "TIMESTAMP":{
+                "type":"TEXT"
+            },
+            "CML_INDOOR_CO":  {
+                "type": "INTEGER"
+            },                 
+            "CML_INDOOR_PM1":  {
+                "type": "INTEGER"
+            },
+            "LOCATION_NAME":{
+                "type":"TEXT"
+            },
+            "CML_TEMPERATURE_CELCIUS":{
+                "type":"TEXT"
+            },
+            "CML_WIND_MPH":{
+                "type":"TEXT"
+            },
+            "CML_WEATHER_TEXT":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIRECTION":{
+                "type":"INTEGER"
+            },
+            "CML_WIND":{
+                "type":"INTEGER"
+            },
+            "CML_PRESSURE":{
+                "type":"TEXT"
+            },
+            "CML_WIND_DIR":{
+                "type":"TEXT"
+            }
+          
+        }, 
+    "apf_notification":{
+            
+            "Id": {
+                    "type": "INTEGER",
+                    "pk":"true"
+                    },
+            "entity_type": {
+                "type": "TEXT"
+                },
+            "day":  {
+                "type": "INTEGER"
+                    },
+            "message": {
+                "type": "TEXT"
+            },
+            "notification_title": {
+                "type": "TEXT"
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            "STRUCTURE_ID": {
+                "type": "TEXT"
+            },
+            "CML_PRIORITY": {
+                "type": "INTEGER"
+            },
+            "is_read":{
+                "type": "INTEGER"
+            },
+            "isArchive": {
+                "type": "INTEGER"
+            }
+            
+        },
+    "clz_main_org":{
+          "CLZ_MAIN_ORG_ID": {
+            "type": "TEXT"
+          },
+          "LKEY_VAL": {
+            "type": "TEXT"
+          },
+          "KEY_VAL": {
+            "type": "TEXT"
+          },
+          "CML_TYPE": {
+            "type": "TEXT"
+          },
+          "CML_TITLE": {
+            "type": "TEXT"
+          },
+          "KEY_TYPE": {
+            "type": "TEXT"
+          },
+          "SUB_KEY_TYPE": {
+            "type": "TEXT"
+          },
+          "CREATED_BY_ON_CLOUZER_SOUL": {
+            "type": "TEXT"
+          },
+          "CREATED_ON_ON_CLOUZER_SOUL": {
+            "type": "TEXT"
+          },
+          "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+            "type": "TEXT"
+          },
+          "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+            "type": "TEXT"
+          },
+          "CREATED_BY": {
+            "type": "TEXT"
+          },
+          "CREATED_ON": {
+            "type": "TEXT"
+          },
+          "LAST_MODIFIED_BY": {
+            "type": "TEXT"
+          },
+          "LAST_MODIFIED_ON": {
+            "type": "TEXT"
+          },
+          "entity_type": {
+            "type": "TEXT"
+          },
+          "CML_IMAGE_PATH": {
+            "type": "TEXT"
+          },
+          "CML_LOCAL_IMG_PATH": {
+            "type": "TEXT"
+          },
+          "CML_COUNTRY": {
+            "type": "TEXT"
+          },
+          "CML_STATE": {
+            "type": "TEXT"
+          },
+          "CML_CITY": {
+            "type": "TEXT"
+          },
+          "CML_LOCATION": {
+            "type": "TEXT"
+          },
+          "CML_IS_ENTERPRISE": {
+            "type": "TEXT"
+          }
+        },
+    "clz_property": {
+          "CLZ_PROPERTY_ID": {
+            "type": "TEXT"
+          },
+          "LKEY_VAL": {
+            "type": "TEXT"
+          },
+          "KEY_VAL": {
+            "type": "TEXT"
+          },
+          "CML_TYPE": {
+            "type": "TEXT"
+          },
+          "CML_TITLE": {
+            "type": "TEXT"
+          },
+          "KEY_TYPE": {
+            "type": "TEXT"
+          },
+          "SUB_KEY_TYPE": {
+            "type": "TEXT"
+          },
+          "CREATED_BY_ON_CLOUZER_SOUL": {
+            "type": "TEXT"
+          },
+          "CREATED_ON_ON_CLOUZER_SOUL": {
+            "type": "TEXT"
+          },
+          "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+            "type": "TEXT"
+          },
+          "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+            "type": "TEXT"
+          },
+          "CREATED_BY": {
+            "type": "TEXT"
+          },
+          "CREATED_ON": {
+            "type": "TEXT"
+          },
+          "LAST_MODIFIED_BY": {
+            "type": "TEXT"
+          },
+          "LAST_MODIFIED_ON": {
+            "type": "TEXT"
+          },
+          "entity_type": {
+            "type": "TEXT"
+          },
+          "CML_IMAGE_PATH": {
+            "type": "TEXT"
+          },
+          "CML_LOCAL_IMG_PATH": {
+            "type": "TEXT"
+          },
+          "CML_COUNTRY": {
+            "type": "TEXT"
+          },
+          "CML_STATE": {
+            "type": "TEXT"
+          },
+          "CML_CITY": {
+            "type": "TEXT"
+          },
+          "CML_LOCATION": {
+            "type": "TEXT"
+          },
+          "CML_IS_ENTERPRISE": {
+            "type": "TEXT"
+          }    
+        },
+    "sync_meta_data": {
+          "ID": {
+            "type": "TEXT"
+          },
+          "HUB_SERIAL_ID": {
+            "type": "TEXT"
+          },
+          "SYNC_TIMESTAMP": {
+            "type": "INTEGER"
+          },
+          "entity_type":{
+            "type": "TEXT"
+          }
+       },
+    "power_consumption_daily_status": {
+          "TIMESTAMP": {
+            "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D": {
+            "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M": {
+            "type": "INTEGER"
+          },
+          "entity_type":{
+            "type": "TEXT"
+          },
+          "POWER_CONSUMPTION_D_HIGH":{
+              "type": "INTEGER"
+          },
+          "USES_D_HIGH":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_MD":{
+              "type": "INTEGER"
+          },
+          "USES_D_MD":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_LOW":{
+              "type": "INTEGER"
+          },
+          "USES_D_LOW":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_HIGH":{
+              "type": "INTEGER"
+          },
+          "USES_M_HIGH":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_MD":{
+              "type": "INTEGER"
+          },
+          "USES_M_MD":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_LOW":{
+              "type": "INTEGER"
+          },
+          "USES_M_LOW":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_OFF":{
+              "type": "INTEGER"
+          },
+          "USES_D_OFF":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_OFF":{
+              "type": "INTEGER"
+          },
+          "USES_M_OFF":{
+              "type": "INTEGER"
+          }
+       },
+    "power_consumption_monthy_status": {
+          "TIMESTAMP": {
+            "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D": {
+            "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M": {
+            "type": "INTEGER"
+          },
+          "entity_type":{
+            "type": "TEXT"
+          },
+          "POWER_CONSUMPTION_D_HIGH":{
+              "type": "INTEGER"
+          },
+          "USES_D_HIGH":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_MD":{
+              "type": "INTEGER"
+          },
+          "USES_D_MD":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_LOW":{
+              "type": "INTEGER"
+          },
+          "USES_D_LOW":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_HIGH":{
+              "type": "INTEGER"
+          },
+          "USES_M_HIGH":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_MD":{
+              "type": "INTEGER"
+          },
+          "USES_M_MD":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_LOW":{
+              "type": "INTEGER"
+          },
+          "USES_M_LOW":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_OFF":{
+              "type": "INTEGER"
+          },
+          "USES_D_OFF":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_OFF":{
+              "type": "INTEGER"
+          },
+          "USES_M_OFF":{
+              "type": "INTEGER"
+          }
+       },
+    "power_consumption_weekly_status": {
+          "TIMESTAMP": {
+            "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D": {
+            "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M": {
+            "type": "INTEGER"
+          },
+          "entity_type":{
+            "type": "TEXT"
+          },
+          "POWER_CONSUMPTION_D_HIGH":{
+              "type": "INTEGER"
+          },
+          "USES_D_HIGH":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_MD":{
+              "type": "INTEGER"
+          },
+          "USES_D_MD":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_LOW":{
+              "type": "INTEGER"
+          },
+          "USES_D_LOW":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_HIGH":{
+              "type": "INTEGER"
+          },
+          "USES_M_HIGH":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_MD":{
+              "type": "INTEGER"
+          },
+          "USES_M_MD":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_LOW":{
+              "type": "INTEGER"
+          },
+          "USES_M_LOW":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_OFF":{
+              "type": "INTEGER"
+          },
+          "USES_D_OFF":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_OFF":{
+              "type": "INTEGER"
+          },
+          "USES_M_OFF":{
+              "type": "INTEGER"
+          }
+       },
+    "power_consumption_yearly_status": {
+          "TIMESTAMP": {
+            "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D": {
+            "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M": {
+            "type": "INTEGER"
+          },
+          "entity_type":{
+            "type": "TEXT"
+          },
+          "POWER_CONSUMPTION_D_HIGH":{
+              "type": "INTEGER"
+          },
+          "USES_D_HIGH":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_MD":{
+              "type": "INTEGER"
+          },
+          "USES_D_MD":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_LOW":{
+              "type": "INTEGER"
+          },
+          "USES_D_LOW":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_HIGH":{
+              "type": "INTEGER"
+          },
+          "USES_M_HIGH":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_MD":{
+              "type": "INTEGER"
+          },
+          "USES_M_MD":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_LOW":{
+              "type": "INTEGER"
+          },
+          "USES_M_LOW":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_D_OFF":{
+              "type": "INTEGER"
+          },
+          "USES_D_OFF":{
+              "type": "INTEGER"
+          },
+          "POWER_CONSUMPTION_M_OFF":{
+              "type": "INTEGER"
+          },
+          "USES_M_OFF":{
+              "type": "INTEGER"
+          }
+       },
+       
+    "filter_replacement_daily_status": {
+          "TIMESTAMP": {
+            "type": "INTEGER"
+          },
+          "REMAINING_HOURS": {
+            "type": "INTEGER"
+          },
+          "CML_SERIAL_ID": {
+            "type": "TEXT"
+          },
+          "entity_type":{
+            "type": "TEXT"
+          },
+          "USED_HOURS":{
+            "type": "INTEGER"
+          },
+          "DAILY_USES":{
+             "type": "INTEGER"
+          },
+          "MONTHLY_USES":{
+             "type": "INTEGER"
+          }
+       },
+    "filter_replacement_monthy_status": {
+          "TIMESTAMP": {
+            "type": "INTEGER"
+          },
+          "REMAINING_HOURS": {
+            "type": "INTEGER"
+          },
+          "CML_SERIAL_ID": {
+            "type": "TEXT"
+          },
+          "entity_type":{
+            "type": "TEXT"
+          },
+          "USED_HOURS":{
+            "type": "INTEGER"
+          },
+          "DAILY_USES":{
+             "type": "INTEGER"
+          },
+          "MONTHLY_USES":{
+             "type": "INTEGER"
+          }
+       },
+    "filter_replacement_weekly_status": {
+          "TIMESTAMP": {
+            "type": "INTEGER"
+          },
+          "REMAINING_HOURS": {
+            "type": "INTEGER"
+          },
+          "CML_SERIAL_ID": {
+            "type": "TEXT"
+          },
+          "entity_type":{
+            "type": "TEXT"
+          },
+          "USED_HOURS":{
+            "type": "INTEGER"
+          },
+          "DAILY_USES":{
+             "type": "INTEGER"
+          },
+          "MONTHLY_USES":{
+             "type": "INTEGER"
+          }
+          
+       },
+    "filter_replacement_yearly_status": {
+          "TIMESTAMP": {
+            "type": "INTEGER"
+          },
+          "REMAINING_HOURS": {
+            "type": "INTEGER"
+          },
+          "CML_SERIAL_ID": {
+            "type": "TEXT"
+          },
+          "entity_type":{
+            "type": "TEXT"
+          },
+          "USED_HOURS":{
+            "type": "INTEGER"
+          },
+          "DAILY_USES":{
+             "type": "INTEGER"
+          },
+          "MONTHLY_USES":{
+             "type": "INTEGER"
+          }
+       },
+       "deleted_devices": {
+            "DEVICE_ID": {
+                "type": "TEXT",
+                "pk": "true"
+            },
+            "LKEY_VAL": {
+                "type": "TEXT"
+            },
+            "STRUCTURE_ID": {
+                "type": "TEXT",
+        "references": {
+                    "tableName": "structure",
+                    "cols": [
+                        "STRUCTURE_ID"
+                    ],
+                    "cascade": true
+                }
+            },
+            "TARGET": {
+                "type": "TEXT"
+            },
+            
+            "KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "SUB_KEY_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_SUB_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_TITLE": {
+                "type": "TEXT"
+            },
+            "KEY_VAL": {
+                "type": "TEXT"
+            },
+            "SYNC_PENDING_STATUS": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "CREATED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "LAST_MODIFIED_BY_ON_CLOUZER_SOUL": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON_ON_CLOUZER_SOUL": {
+                "type": "INTEGER"
+            },
+            "CREATED_BY": {
+                "type": "TEXT"
+            },
+            "CREATED_ON": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_BY": {
+                "type": "TEXT"
+            },
+            "LAST_MODIFIED_ON": {
+                "type": "TEXT"
+            },
+            "ACTIVE_STATUS": {
+                "type": "INTEGER"
+            },
+            "CML_MANUFACTURER_NAME": {
+                "type": "TEXT"
+            },
+            "CML_MANUFACTURER_ID": {
+                "type": "TEXT"
+            },
+            "CML_SERIAL_ID": {
+                "type": "TEXT"
+            },
+            "CML_NAME": {
+                "type": "TEXT"
+            },
+            "CML_TESTABLE": {
+                "type": "TEXT"
+            },
+            "CML_MAC_ID": {
+                "type": "TEXT"
+            },
+            "CML_INSTALLATION_DATE": {
+                "type": "TEXT"
+            },
+            "CML_CONTROLLER_ID": {
+                "type": "TEXT"
+            },
+            "CML_CONTROL_MODE": {
+                "type": "INTEGER"
+            },
+            "CML_EXPIRY_DATE": {
+                "type": "TEXT"
+            },
+            "IO_MODE": {
+                "type": "INTEGER"
+            },
+            "INPUT_PROTOCOL": {
+                "type": "TEXT"
+            },
+            "OUTPUT_PROTOCOL": {
+                "type": "TEXT"
+            },
+            "CML_SUPPORTING_ZONE": {
+                "type": "TEXT"
+            },
+            "CML_SUPPORTED_TYPE": {
+                "type": "TEXT"
+            },
+            "CML_DEVICE_FIRMWARE": {
+                "type": "TEXT"
+            },
+            "MODEL_NUMBER": {
+                "type": "TEXT"
+            },
+            "OWNER_ID": {
+                "type": "TEXT"
+            },
+            "override": {
+                "type": "TEXT"
+            },
+            "concept": {
+                "type": "TEXT"
+            },
+             "COLOR_SUPPORTED": {
+                "type": "INTEGER"
+            },
+            "CML_DEVICE_REF": {
+                "type": "TEXT"
+            },
+            "CML_GROUP_REF": {
+                "type": "TEXT"
+            },
+            "CREDENTIAL_ID": {
+              "type": "TEXT"
+            },
+            "INTERFACE_ID": {
+              "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "CML_SWITCH_CNTR_ID":{
+            "type":"TEXT"
+        },
+        "CML_SHORT_NAME":
+        {
+        "type": "TEXT"
+        },
+        "DEVICE_TYPE_ID":
+        {
+        "type": "TEXT"
+        },
+        "PRODUCT_ID":
+        {
+        "type": "TEXT"
+        },
+        "CML_HOUSEHOLD_ID":
+        {
+        "type": "TEXT"
+        },
+        "INDEX_NO":{
+                "type":"TEXT"
+            },
+            "CUSTOM_USER_NAME":{
+                "type":"TEXT"
+            },
+        "WATT":{
+                "type": "INTEGER"
+            },
+        "UNIQUE":
+                {
+                    "CML_TITLE":"TEXT",
+                    "CUSTOM_USER_NAME" : "TEXT"
+                    
+                }
+        },
+        "vacation_details":{
+            "start_time": {
+                "type": "TEXT"
+            },
+            "end_time":  {
+                "type": "TEXT"
+            },
+            "entity_type": {
+                "type": "TEXT"
+            },
+            "vacation_days": {
+                "type": "INTEGER"
+            }
+        },
+        "daily_power":{
+            "TIMESTAMP": {
+                "type": "INTEGER"
+                },
+            "power_consumption_daily":  {
+                "type": "TEXT"
+                    },
+            "power_consumption_monthly":  {
+                "type": "TEXT"
+                    },
+            "CML_SUB_TYPE":  {
+                "type": "TEXT"
+                    },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "weekly_power":{
+            "TIMESTAMP": {
+                "type": "INTEGER"
+                },
+            "power_consumption_daily":  {
+                "type": "TEXT"
+                    },
+            "power_consumption_monthly":  {
+                "type": "TEXT"
+                    },
+            "CML_SUB_TYPE":  {
+                "type": "TEXT"
+                    },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "monthly_power":{
+            "TIMESTAMP": {
+                "type": "INTEGER"
+                },
+            "power_consumption_daily":  {
+                "type": "TEXT"
+                    },
+            "power_consumption_monthly":  {
+                "type": "TEXT"
+                    },
+            "CML_SUB_TYPE":  {
+                "type": "TEXT"
+                    },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        },
+        "yearly_power":{
+            "TIMESTAMP": {
+                "type": "INTEGER"
+                },
+            "power_consumption_daily":  {
+                "type": "TEXT"
+                    },
+            "power_consumption_monthly":  {
+                "type": "TEXT"
+                    },
+            "CML_SUB_TYPE":  {
+                "type": "TEXT"
+                    },
+            "entity_type": {
+                "type": "TEXT"
+            }
+        }
+    
+    }
+    
