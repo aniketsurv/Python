@@ -12,20 +12,6 @@
 
 row = 7
 
-# for i in range(1,row+1):
-#     space = " "*(row-i)
-#     star = "*"*i
-#     print(space+star)
-
-
-# for i in range(1,row):
-#     space = " "*(i)
-#     star = "*"*(row-i)
-#     print(space+star)
-
-# fl=row/2
-# print(fl)
-# print(type(fl))
 
 for i in range(row):
     for j in range(int(row)):
