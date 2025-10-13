@@ -1,18 +1,24 @@
 class MyClass:
-    # no_of_days = 365
+    no_of_days = 380
 
-    # def 
+    def calculate_years_month_weeks_days(no_of_days=None):
 
-    # calculate_years_month_weeks_days(no_of_days=no_of_days)
+        print(f"Number of days :: {no_of_days}")
+
+        year = int(no_of_days/365)
+        print(f"Year :: {year}")
+        rem1 = int(no_of_days%365)
+        print(f"rem1 :: {rem1}")
+        Month =int(rem1/30)
+        print(f"Month :: {Month}")
+        rem2 = rem1%30
+        print(f"rem2 :: {rem2}")
+        Weeks = int(rem2/7)
+        print(f"Weeks :: {Weeks}")
+        days = (rem2%7)
+        print(f"days :: {days}")
+
+    calculate_years_month_weeks_days(no_of_days=no_of_days)
 
     
-    def calculate_simple_interest():
-        p = 10000
-        n =  2
-        r = 20
-        print(f"p :: {p}")
-        print(f"n :: {n}")
-        print(f"r :: {r}")
-        
-        si = p*n*r/100
-        print(f"Calculate SI is : {si}")
+
